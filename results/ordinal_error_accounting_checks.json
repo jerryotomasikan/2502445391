@@ -1,0 +1,1006 @@
+[
+  {
+    "check": "wine_red unique test indices",
+    "passed": true
+  },
+  {
+    "check": "wine_red row alignment",
+    "passed": true
+  },
+  {
+    "check": "wine_red target alignment",
+    "passed": true
+  },
+  {
+    "check": "wine_red finite values",
+    "passed": true
+  },
+  {
+    "check": "wine_red discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "wine_red reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "wine_red reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "wine_red reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "wine_red full paired partition",
+    "passed": true
+  },
+  {
+    "check": "wine_red baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "wine_red model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "wine_red net error identity",
+    "passed": true
+  },
+  {
+    "check": "wine_red accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq unique test indices",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq row alignment",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq target alignment",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq finite values",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq full paired partition",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq net error identity",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "wine_white unique test indices",
+    "passed": true
+  },
+  {
+    "check": "wine_white row alignment",
+    "passed": true
+  },
+  {
+    "check": "wine_white target alignment",
+    "passed": true
+  },
+  {
+    "check": "wine_white finite values",
+    "passed": true
+  },
+  {
+    "check": "wine_white discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "wine_white reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "wine_white reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "wine_white reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "wine_white full paired partition",
+    "passed": true
+  },
+  {
+    "check": "wine_white baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "wine_white model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "wine_white net error identity",
+    "passed": true
+  },
+  {
+    "check": "wine_white accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq unique test indices",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq row alignment",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq target alignment",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq finite values",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq full paired partition",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq net error identity",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "airquality unique test indices",
+    "passed": true
+  },
+  {
+    "check": "airquality row alignment",
+    "passed": true
+  },
+  {
+    "check": "airquality target alignment",
+    "passed": true
+  },
+  {
+    "check": "airquality finite values",
+    "passed": true
+  },
+  {
+    "check": "airquality discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "airquality reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "airquality reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "airquality reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "airquality full paired partition",
+    "passed": true
+  },
+  {
+    "check": "airquality baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "airquality model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "airquality net error identity",
+    "passed": true
+  },
+  {
+    "check": "airquality accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq unique test indices",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq row alignment",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq target alignment",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq finite values",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq full paired partition",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq net error identity",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth unique test indices",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth row alignment",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth target alignment",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth finite values",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth full paired partition",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth net error identity",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq unique test indices",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq row alignment",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq target alignment",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq finite values",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq full paired partition",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq net error identity",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth unique test indices",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth row alignment",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth target alignment",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth finite values",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth full paired partition",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth net error identity",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq unique test indices",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq row alignment",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq target alignment",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq finite values",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq full paired partition",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq net error identity",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth unique test indices",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth row alignment",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth target alignment",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth finite values",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth full paired partition",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth net error identity",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "california_efreq unique test indices",
+    "passed": true
+  },
+  {
+    "check": "california_efreq row alignment",
+    "passed": true
+  },
+  {
+    "check": "california_efreq target alignment",
+    "passed": true
+  },
+  {
+    "check": "california_efreq finite values",
+    "passed": true
+  },
+  {
+    "check": "california_efreq discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "california_efreq reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "california_efreq reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "california_efreq reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "california_efreq full paired partition",
+    "passed": true
+  },
+  {
+    "check": "california_efreq baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "california_efreq model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "california_efreq net error identity",
+    "passed": true
+  },
+  {
+    "check": "california_efreq accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth unique test indices",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth row alignment",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth target alignment",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth finite values",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth full paired partition",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth net error identity",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq unique test indices",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq row alignment",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq target alignment",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq finite values",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq full paired partition",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq net error identity",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth unique test indices",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth row alignment",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth target alignment",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth finite values",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth full paired partition",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth net error identity",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq unique test indices",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq row alignment",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq target alignment",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq finite values",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq full paired partition",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq net error identity",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth unique test indices",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth row alignment",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth target alignment",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth finite values",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth full paired partition",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth net error identity",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq unique test indices",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq row alignment",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq target alignment",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq finite values",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq full paired partition",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq net error identity",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth unique test indices",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth row alignment",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth target alignment",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth finite values",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth discrete model predictions",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth reproduce model tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth reproduce constant tolerance accuracy",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth reproduce test count",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth full paired partition",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth baseline error decomposition",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth model error decomposition",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth net error identity",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth accuracy difference identity",
+    "passed": true
+  },
+  {
+    "check": "18 tasks improve over fixed constant",
+    "passed": true
+  },
+  {
+    "check": "only ceiling case has zero baseline errors",
+    "passed": true
+  },
+  {
+    "check": "all seven EW variants have smaller absolute gain",
+    "passed": true
+  },
+  {
+    "check": "five higher one tied one lower EW raw score",
+    "passed": true
+  }
+]

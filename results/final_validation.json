@@ -1,0 +1,2622 @@
+[
+  {
+    "check": "abalone_efreq/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/SVM_RBF bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/SVM_RBF bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/SVM_RBF bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/SVM_RBF bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/SVM_RBF bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "abalone_efreq/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/SVM_RBF bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/SVM_RBF bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/SVM_RBF bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/SVM_RBF bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/SVM_RBF bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "abalone_ewidth/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "airquality/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "airquality/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "airquality/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "airquality/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "airquality/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "airquality/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "airquality/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "airquality/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "airquality/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "airquality/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "airquality/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "airquality/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "airquality/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "airquality/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "airquality/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "airquality/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "airquality/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "airquality/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "airquality/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "airquality/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "airquality/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "airquality/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "airquality/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "airquality/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "airquality/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "airquality/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "airquality/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/CatBoost bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/CatBoost bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/CatBoost bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/CatBoost bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/CatBoost bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "california_efreq/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/CatBoost bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/CatBoost bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/CatBoost bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/CatBoost bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/CatBoost bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "california_ewidth/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/CatBoost bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/CatBoost bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/CatBoost bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/CatBoost bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/CatBoost bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "concrete_efreq_nodedup/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/XGBoost bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/XGBoost bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/XGBoost bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/XGBoost bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/XGBoost bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "concrete_ewidth/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/HistGradientBoosting bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/HistGradientBoosting bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/HistGradientBoosting bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/HistGradientBoosting bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/HistGradientBoosting bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "energy_efreq/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "energy_ewidth/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/CatBoost bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/CatBoost bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/CatBoost bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/CatBoost bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/CatBoost bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_efreq/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "gasturbine_ewidth/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/CatBoost bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/CatBoost bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/CatBoost bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/CatBoost bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/CatBoost bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "miami_efreq/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/XGBoost bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/XGBoost bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/XGBoost bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/XGBoost bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/XGBoost bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/CatBoost bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/CatBoost bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/CatBoost bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/CatBoost bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/CatBoost bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "superconduct_efreq_nodedup/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/CatBoost bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/CatBoost bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/CatBoost bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/CatBoost bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/CatBoost bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "superconduct_ewidth/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_red/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_red/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_red/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_red/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_red/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_red/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_red/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_red/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_red/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_red/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_red/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_red/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_red/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_red/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_red/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_red_efreq/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_red_nodedup/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_white/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_white/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_white/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_white/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_white/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_white/FTTransformer bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_white/FTTransformer bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_white/FTTransformer bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_white/FTTransformer bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_white/FTTransformer bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_white/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_white/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_white/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_white/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_white/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_white_efreq/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/TabPFNRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/TabPFNRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/ExtraTreesRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/ExtraTreesRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/CatBoostRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/CatBoostRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/XGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/XGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/HistGBRegressor ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/HistGBRegressor QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/CumulativeLogit ordinal macro-F1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/CumulativeLogit QWK",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/ExtraTrees bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/ExtraTrees bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/ExtraTrees bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/ExtraTrees bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/ExtraTrees bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/MLP bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/MLP bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/MLP bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/MLP bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/MLP bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/TabPFN bootstrap AUC formula sample0",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/TabPFN bootstrap AUC formula sample1",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/TabPFN bootstrap AUC formula sample2",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/TabPFN bootstrap AUC formula sample3",
+    "passed": true
+  },
+  {
+    "check": "wine_white_nodedup/TabPFN bootstrap AUC formula sample4",
+    "passed": true
+  },
+  {
+    "check": "19 principal configurations",
+    "passed": true
+  },
+  {
+    "check": "scratch category count",
+    "passed": true
+  },
+  {
+    "check": "TabPFN category count",
+    "passed": true
+  },
+  {
+    "check": "Holm adjusted minimum p",
+    "passed": true
+  },
+  {
+    "check": "conditional five-discordance example",
+    "passed": true
+  },
+  {
+    "check": "citation first appearance order 1..22",
+    "passed": true
+  },
+  {
+    "check": "nine Word tables (I-IV, S1-S5)",
+    "passed": true
+  },
+  {
+    "check": "four Word figures including the research framework",
+    "passed": true
+  },
+  {
+    "check": "Word table 1 exactly matches generated source",
+    "passed": true
+  },
+  {
+    "check": "Word table 2 exactly matches generated source",
+    "passed": true
+  },
+  {
+    "check": "Word table 3 exactly matches generated source",
+    "passed": true
+  },
+  {
+    "check": "Word table 4 exactly matches generated source",
+    "passed": true
+  },
+  {
+    "check": "Word table 5 exactly matches generated source",
+    "passed": true
+  },
+  {
+    "check": "Word table 6 exactly matches generated source",
+    "passed": true
+  },
+  {
+    "check": "Word table 7 exactly matches generated source",
+    "passed": true
+  },
+  {
+    "check": "Word table 8 exactly matches generated source",
+    "passed": true
+  },
+  {
+    "check": "Word table 9 exactly matches generated source",
+    "passed": true
+  },
+  {
+    "check": "no placeholder or missing-glyph marker '{{'",
+    "passed": true
+  },
+  {
+    "check": "no placeholder or missing-glyph marker '{ref:'",
+    "passed": true
+  },
+  {
+    "check": "no placeholder or missing-glyph marker '\ufffd'",
+    "passed": true
+  },
+  {
+    "check": "no placeholder or missing-glyph marker '\u25a0'",
+    "passed": true
+  },
+  {
+    "check": "no placeholder or missing-glyph marker '\u25a1'",
+    "passed": true
+  },
+  {
+    "check": "no placeholder or missing-glyph marker '\u00e2\u20ac'",
+    "passed": true
+  },
+  {
+    "check": "no placeholder or missing-glyph marker '\u00c3\\x9f'",
+    "passed": true
+  },
+  {
+    "check": "abstract within 150-250 words",
+    "passed": true
+  },
+  {
+    "check": "PDF page count matches rendered-page manifest",
+    "passed": true
+  },
+  {
+    "check": "figure captions numbered 1-4 in order",
+    "passed": true
+  },
+  {
+    "check": "framework figure embedded in source",
+    "passed": true
+  },
+  {
+    "check": "wine_red tolerance counts",
+    "passed": true
+  },
+  {
+    "check": "wine_red stated interval endpoints",
+    "passed": true
+  },
+  {
+    "check": "wine_red paired tolerance difference",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth tolerance counts",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth stated interval endpoints",
+    "passed": true
+  },
+  {
+    "check": "miami_ewidth paired tolerance difference",
+    "passed": true
+  }
+]

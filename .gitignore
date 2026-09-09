@@ -1,0 +1,26 @@
+# Raw experiment artefacts (~24 GB) - see README
+runs/
+runs_multiseed/
+Dataset/
+*.joblib
+*.npz
+*.pt
+*.pth
+
+# Build outputs
+*.docx
+*.odt
+*.pdf
+pdf_render/
+render/
+render_portable/
+
+# Local environments
+.venv*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store

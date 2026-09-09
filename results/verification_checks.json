@@ -1,0 +1,6998 @@
+[
+  {
+    "ok": true,
+    "check": "abalone_efreq test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq source checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq target alignment"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_efreq primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth source checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth target alignment"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "abalone_ewidth primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "airquality test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "airquality test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "airquality test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "airquality test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "airquality source checksum"
+  },
+  {
+    "ok": true,
+    "check": "airquality reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "airquality stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "airquality target alignment"
+  },
+  {
+    "ok": true,
+    "check": "airquality disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "airquality ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "airquality TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "airquality DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "airquality TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "airquality TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "airquality TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "airquality CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "airquality CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "airquality CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "airquality CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "airquality CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "airquality CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "airquality ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "airquality ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "airquality ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "airquality XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "airquality XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "airquality XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "airquality HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "airquality HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "airquality HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "airquality primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq source checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq target alignment"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "california_efreq primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth source checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth target alignment"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "california_ewidth primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq source checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq target alignment"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup source checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup target alignment"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_efreq_nodedup primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth source checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth target alignment"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "concrete_ewidth primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq source checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq target alignment"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_efreq primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth source checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth target alignment"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "energy_ewidth primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq source checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq target alignment"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_efreq primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth source checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth target alignment"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "gasturbine_ewidth primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq source checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq target alignment"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_efreq primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth source checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth target alignment"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "miami_ewidth primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq source checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq target alignment"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup source checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup target alignment"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_efreq_nodedup primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth source checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth target alignment"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "superconduct_ewidth primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_efreq primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_white test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_white target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_white disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_white ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_white TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_efreq primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_white_nodedup primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260906 primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260907 primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260908 primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260909 primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red__seed20260910 primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260906 primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260907 primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260908 primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260909 primary development selection"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 test_metrics_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 test_predictions_binary.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 test_metrics_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 test_predictions_ordinal.csv checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 source checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 reconstructed data checksum"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 stored split matches predictions"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 target alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 disjoint split"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 ordinal row alignment"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 TabPFN AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 TabPFN accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 SoftVoting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 SoftVoting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 ExtraTrees AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 ExtraTrees accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 RandomForest AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 RandomForest accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 HistGradientBoosting AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 HistGradientBoosting accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 CatBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 CatBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 XGBoost AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 XGBoost accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 MLP AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 MLP accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 SVM_RBF AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 SVM_RBF accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 LogisticRegression AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 LogisticRegression accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 FTTransformer AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 FTTransformer accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 DummyPrior AUC"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 DummyPrior accuracy"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 TabPFNRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 TabPFNRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 TabPFNRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 ExtraTreesRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 ExtraTreesRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 ExtraTreesRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 CatBoostRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 CatBoostRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 CatBoostRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 HistGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 HistGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 HistGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 XGBRegressor MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 XGBRegressor W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 XGBRegressor exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 CumulativeLogit MAE"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 CumulativeLogit W1"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 CumulativeLogit exact"
+  },
+  {
+    "ok": true,
+    "check": "wine_red_nodedup__seed20260910 primary development selection"
+  }
+]
