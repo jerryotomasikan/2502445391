@@ -9,7 +9,7 @@ from matplotlib.font_manager import fontManager
 from PIL import Image
 from io import BytesIO
 
-OUT = Path(__file__).parent / 'Naskah_Revisi' / 'Figures'
+OUT = Path(__file__).parent / 'results' / 'Figures'
 OUT.mkdir(parents=True, exist_ok=True)
 for filename in ['arial.ttf','arialbd.ttf']:
     fontManager.addfont(str(Path(r'C:\Windows\Fonts')/filename))

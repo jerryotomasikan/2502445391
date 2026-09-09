@@ -8,7 +8,7 @@ Layer 1  resolution of the seeded workflow versus model-family separation
 Layer 2  conditional rejection boundary of the exact McNemar design
 Layer 3  modelling effort versus a single protocol decision
 
-Outputs land in Paper/Naskah_Revisi/audit as CSV plus a summary JSON that the
+Outputs land in results/ as CSV plus a summary JSON that the
 manuscript builder reads.
 """
 from __future__ import annotations
@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs"
 MULTISEED = ROOT / "runs_multiseed"
-AUDIT = ROOT / "Paper" / "Naskah_Revisi" / "audit"
+AUDIT = ROOT / "results"
 
 NODEDUP = {
     "concrete_efreq_nodedup",

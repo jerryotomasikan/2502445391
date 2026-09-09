@@ -10,7 +10,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from sklearn.calibration import calibration_curve
 
-OUT=Path(__file__).parent/'Naskah_Revisi';A=OUT/'audit';F=OUT/'Figures';F.mkdir(exist_ok=True)
+OUT=Path(__file__).parent/'results';A=OUT/'audit';F=OUT/'Figures';F.mkdir(exist_ok=True)
 d=pd.read_csv(A/'audited_results.csv').set_index('dataset');main=d[~d.index.str.contains('__seed|nodedup')]
 paths=json.loads((A/'selected_runs.json').read_text())
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':12,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42,'svg.fonttype':'none'})

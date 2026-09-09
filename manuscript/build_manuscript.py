@@ -8,7 +8,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from paper_math import equation
 
-OUT=Path(__file__).parent/'Naskah_Revisi';A=OUT/'audit'
+OUT=Path(__file__).resolve().parent;A=OUT.parent/'results'
 def read(name):
     with (A/name).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
 D={r['dataset']:r for r in read('audited_results.csv')};paths=json.loads((A/'selected_runs.json').read_text(encoding='utf-8'))

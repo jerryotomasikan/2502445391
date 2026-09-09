@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD = ROOT / "Paper" / "Naskah_Revisi" / "Paper_Revised.md"
+MD = ROOT / "manuscript" / "Paper_Revised.md"
 
 
 def tables():

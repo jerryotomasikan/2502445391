@@ -7,7 +7,7 @@ from math import comb
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-AUDIT = ROOT / "Paper" / "Naskah_Revisi" / "audit"
+AUDIT = ROOT / "results"
 
 
 def read(p):
@@ -80,7 +80,7 @@ print()
 print("=" * 74)
 print("E4  Supplementary tables referenced in the body")
 print("=" * 74)
-md = (ROOT / "Paper" / "Naskah_Revisi" / "Paper_Revised.md").read_text(encoding="utf-8")
+md = (ROOT / "manuscript" / "Paper_Revised.md").read_text(encoding="utf-8")
 body = md.split("## Supplementary Results")[0]
 for t in ("S1", "S2", "S3", "S4", "S5"):
     print(f"  Table {t}: {'referenced' if f'Table {t}' in body else 'NOT referenced'}")

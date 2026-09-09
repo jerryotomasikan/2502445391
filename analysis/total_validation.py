@@ -17,7 +17,7 @@ import numpy as np
 from sklearn.metrics import f1_score, roc_auc_score, cohen_kappa_score
 
 ROOT = Path(__file__).resolve().parents[1]
-NASKAH = ROOT / "Paper" / "Naskah_Revisi"
+NASKAH = ROOT / "manuscript"   # Paper_Revised.md is not distributed
 AUDIT = NASKAH / "audit"
 
 CLIP = 1e-7

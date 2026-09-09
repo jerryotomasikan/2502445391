@@ -78,9 +78,18 @@ python analysis/validate_resolution_claims.py
 3. Run the drivers:
 
 ```bash
+# the 19 principal configurations
 python runner/run_all_datasets.py --mode research --jobs 6
+
+# the duplicate-retaining arms of Table II; red wine is covered by the seed sweep below
+python runner/run_all_datasets.py --mode research --jobs 3     --datasets wine_white_nodedup concrete_efreq_nodedup superconduct_efreq_nodedup
+
+# five seeds for red wine, both arms
 python runner/run_multiseed.py
 ```
+
+Together these produce the 19 principal configurations, the four duplicate-retaining
+comparisons, and the ten seeded red-wine runs the paper reports.
 
 4. Rebuild the audited tables:
 

@@ -11,7 +11,7 @@ from PIL import Image as PILImage
 import pypdfium2 as pdfium
 from pypdf import PdfReader
 
-OUT=Path(__file__).parent/'Naskah_Revisi';R=OUT/'audit'/'pdf_render';R.mkdir(parents=True,exist_ok=True)
+OUT=Path(__file__).resolve().parent;R=OUT/'pdf_render';R.mkdir(parents=True,exist_ok=True)
 for name,file in [('PaperTimes','times.ttf'),('PaperTimesB','timesbd.ttf'),('PaperTimesI','timesi.ttf'),('PaperTimesBI','timesbi.ttf')]:pdfmetrics.registerFont(TTFont(name,str(Path(r'C:\Windows\Fonts')/file)))
 pdfmetrics.registerFontFamily('PaperTimes',normal='PaperTimes',bold='PaperTimesB',italic='PaperTimesI',boldItalic='PaperTimesBI')
 pdfmetrics.registerFont(TTFont('PaperMath',r'C:\Windows\Fonts\cambria.ttc',subfontIndex=1))

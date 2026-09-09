@@ -10,8 +10,8 @@ import json
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
-A = ROOT / 'Naskah_Revisi' / 'audit' if (ROOT / 'Naskah_Revisi').exists() else ROOT
+ROOT = Path(__file__).resolve().parents[1]
+A = ROOT / 'results'
 D = pd.read_csv(A / 'audited_results.csv').set_index('dataset')
 P = json.loads((A / 'selected_runs.json').read_text(encoding='utf-8'))
 order = ['wine_red','wine_red_efreq','wine_white','wine_white_efreq','airquality',

@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 import numpy as np
 import pandas as pd
-A=Path(__file__).parent/'Naskah_Revisi'/'audit'
+A=Path(__file__).parent/'results'/'audit'
 D=pd.read_csv(A/'audited_results.csv').set_index('dataset')
 P=json.loads((A/'selected_runs.json').read_text(encoding='utf-8'))
 out=[]

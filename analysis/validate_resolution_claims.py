@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-NASKAH = ROOT / "Paper" / "Naskah_Revisi"
+NASKAH = ROOT / "manuscript"   # Paper_Revised.md is not distributed
 AUDIT = NASKAH / "audit"
 
 text = (NASKAH / "Paper_Revised.md").read_text(encoding="utf-8")

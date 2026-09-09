@@ -9,7 +9,7 @@ import sys
 from docx import Document
 from pypdf import PdfReader
 
-O=Path(__file__).parent/'Naskah_Revisi';A=O/'audit';P=json.loads((A/'selected_runs.json').read_text());D=pd.read_csv(A/'audited_results.csv').set_index('dataset');checks=[]
+O=Path(__file__).resolve().parent;A=O.parent/'results';P=json.loads((A/'selected_runs.json').read_text());D=pd.read_csv(A/'audited_results.csv').set_index('dataset');checks=[]
 def ok(v,label):
     checks.append(dict(check=label,passed=bool(v)))
     if not v:raise AssertionError(label)

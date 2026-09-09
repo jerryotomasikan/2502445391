@@ -8,7 +8,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from PIL import Image
 
-ROOT=Path(__file__).parent; O=ROOT/'Naskah_Revisi'; A=O/'audit'; F=O/'Figures'
+ROOT=Path(__file__).parent; O=ROOT/'results'; A=O/'audit'; F=O/'Figures'
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,
     'axes.labelsize':9,'axes.titlesize':9,'xtick.labelsize':8,'ytick.labelsize':8,
     'legend.fontsize':8,'axes.spines.top':False,'axes.spines.right':False,

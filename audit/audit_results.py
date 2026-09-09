@@ -6,7 +6,7 @@ import pandas as pd
 from scipy.stats import binomtest
 from sklearn.metrics import roc_auc_score, accuracy_score, mean_absolute_error, cohen_kappa_score, f1_score
 
-BASE=Path(__file__).parent/'Naskah_Revisi'
+BASE=Path(__file__).parent/'results'
 OUT=BASE/'audit'
 ROOT=REPO_ROOT
 sys.stdout.reconfigure(encoding='utf-8')

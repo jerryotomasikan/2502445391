@@ -10,7 +10,7 @@ import pandas as pd
 from scipy.stats import binomtest
 
 ROOT=Path(__file__).parent
-A=ROOT/'Naskah_Revisi'/'audit' if (ROOT/'Naskah_Revisi').exists() else ROOT
+A = ROOT / 'results'
 P=json.loads((A/'selected_runs.json').read_text(encoding='utf-8'))
 E=pd.read_csv(A/'ordinal_error_accounting.csv')
 D=pd.read_csv(A/'audited_results.csv').set_index('dataset')

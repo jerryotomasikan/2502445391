@@ -11,7 +11,7 @@ import sys
 import zipfile
 from pathlib import Path
 
-OUT = Path(__file__).parent / "Naskah_Revisi"
+OUT = Path(__file__).resolve().parent
 DOCX = OUT / "Paper_Revised.docx"
 ODT = OUT / "Paper_Revised.odt"
 
