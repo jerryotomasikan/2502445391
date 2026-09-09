@@ -4,6 +4,7 @@ dilabeli demikian, sama seperti referensi 'tebak grade 6' pada paper lama."""
 import matplotlib; matplotlib.use("Agg")
 import sys, io, json, contextlib
 from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[2]
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
@@ -12,7 +13,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.calibration import calibration_curve
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-ROOT = Path(r"PAPER_ROOT"); RUNS = ROOT / "runs"
+ROOT = REPO_ROOT; RUNS = ROOT / "runs"
 NB = json.load(open(ROOT / "Paper" / "Training.ipynb", encoding="utf-8"))
 C1, C2, C3 = ("".join(NB["cells"][i]["source"]) for i in (2, 4, 6))
 

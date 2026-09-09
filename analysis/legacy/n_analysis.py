@@ -1,8 +1,10 @@
+from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[2]
 import sys, io
 import pandas as pd, numpy as np
 from scipy.stats import spearmanr
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-df = pd.read_csv(r"PAPER_ROOT/runs\aggregate.csv")
+df = pd.read_csv(str(REPO_ROOT / r"runs/aggregate.csv"))
 df["ceiling"] = df[["auc_klasik","auc_neural","auc_sv"]].max(axis=1) >= 0.97
 print(f"  rentang n dalam 19 konfigurasi : {df.n.min():,} - {df.n.max():,}  (rasio {df.n.max()/df.n.min():.1f}x)")
 for label, s in [("semua 19", df), ("non-ceiling (12)", df[~df.ceiling])]:

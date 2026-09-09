@@ -2,8 +2,9 @@ import matplotlib; matplotlib.use("Agg")
 import sys, io
 import pandas as pd, numpy as np, matplotlib.pyplot as plt
 from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[2]
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-R = Path(r"PAPER_ROOT/runs")
+R = REPO_ROOT / r"runs"
 ms = pd.read_csv(R.parent / "runs_multiseed" / "multiseed_leakage.csv")
 ag = pd.read_csv(R / "aggregate.csv")
 

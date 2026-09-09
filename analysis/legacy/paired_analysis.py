@@ -1,9 +1,11 @@
+from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[2]
 """Analisis berpasangan yang benar: kontras efreq vs ewidth pada dataset SAMA."""
 import sys, io
 import numpy as np, pandas as pd
 from scipy.stats import wilcoxon, binomtest, spearmanr
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-df = pd.read_csv(r"PAPER_ROOT/runs\aggregate.csv").set_index("dataset")
+df = pd.read_csv(str(REPO_ROOT / r"runs/aggregate.csv")).set_index("dataset")
 
 BASES = ["concrete", "energy", "california", "abalone", "gasturbine", "superconduct", "miami"]
 rows = []
@@ -47,4 +49,4 @@ print()
 print("  KESIMPULAN METODOLOGIS: laporkan uji tanda berpasangan (n=7) sebagai hasil")
 print("  inferensial; korelasi lintas-konfigurasi hanya sebagai ilustrasi deskriptif,")
 print("  dengan ketidakbebasan dinyatakan eksplisit.")
-p.to_csv(r"PAPER_ROOT/runs\paired_binning_contrast.csv", index=False)
+p.to_csv(str(REPO_ROOT / r"runs/paired_binning_contrast.csv"), index=False)

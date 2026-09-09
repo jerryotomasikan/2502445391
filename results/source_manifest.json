@@ -27,7 +27,11 @@
       },
       "binary": "ge:6"
     },
-    "source_sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e"
+    "source_sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+    "source_repository": "UCI Machine Learning Repository",
+    "source_identifier": "doi:10.24432/C56S3T",
+    "source_url": "https://doi.org/10.24432/C56S3T",
+    "retrieval_note": "Wine Quality; use the red-wine file winequality-red.csv, semicolon separated."
   },
   {
     "source": "White wine",
@@ -57,7 +61,11 @@
       },
       "binary": "ge:6"
     },
-    "source_sha256": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+    "source_sha256": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+    "source_repository": "UCI Machine Learning Repository",
+    "source_identifier": "doi:10.24432/C56S3T",
+    "source_url": "https://doi.org/10.24432/C56S3T",
+    "retrieval_note": "Wine Quality; use the white-wine file winequality-white.csv, semicolon separated."
   },
   {
     "source": "Air quality",
@@ -85,7 +93,11 @@
       },
       "binary": "ge:2"
     },
-    "source_sha256": "b20f9699baf541b02f98ad59c4b06fd0da15ac64facb4a63b1d27ced3c80864c"
+    "source_sha256": "b20f9699baf541b02f98ad59c4b06fd0da15ac64facb4a63b1d27ced3c80864c",
+    "source_repository": "OpenML",
+    "source_identifier": "openml:46880",
+    "source_url": "https://www.openml.org/d/46880",
+    "retrieval_note": "air-quality-and-pollution-assessment, version 2; exported to CSV without reordering rows."
   },
   {
     "source": "Concrete",
@@ -114,7 +126,11 @@
       },
       "binary": "median"
     },
-    "source_sha256": "42af38e31a97bae4a609b36d8d56407cf9b355d7ce0c854b0833964096de3e7e"
+    "source_sha256": "42af38e31a97bae4a609b36d8d56407cf9b355d7ce0c854b0833964096de3e7e",
+    "source_repository": "UCI Machine Learning Repository",
+    "source_identifier": "doi:10.24432/C5PK67",
+    "source_url": "https://doi.org/10.24432/C5PK67",
+    "retrieval_note": "Concrete Compressive Strength; converted from the distributed spreadsheet to CSV."
   },
   {
     "source": "Energy",
@@ -146,7 +162,11 @@
       },
       "binary": "median"
     },
-    "source_sha256": "483904d33ab6db8bb0d1791d81410c18567c6b967035325a844de8ca97046ddc"
+    "source_sha256": "483904d33ab6db8bb0d1791d81410c18567c6b967035325a844de8ca97046ddc",
+    "source_repository": "UCI Machine Learning Repository",
+    "source_identifier": "doi:10.24432/C51307",
+    "source_url": "https://doi.org/10.24432/C51307",
+    "retrieval_note": "Energy Efficiency; converted to CSV. The secondary target Y2 is dropped by the loader."
   },
   {
     "source": "Abalone",
@@ -177,7 +197,11 @@
       },
       "binary": "median"
     },
-    "source_sha256": "de276460aa7d3660dcf06ec31840c19c1af83a37b1676fa2f4728a962a86572d"
+    "source_sha256": "de276460aa7d3660dcf06ec31840c19c1af83a37b1676fa2f4728a962a86572d",
+    "source_repository": "UCI Machine Learning Repository",
+    "source_identifier": "doi:10.24432/C55C7W",
+    "source_url": "https://doi.org/10.24432/C55C7W",
+    "retrieval_note": "Abalone; the categorical sex column is dropped by the loader to keep a numeric matrix."
   },
   {
     "source": "California",
@@ -207,7 +231,11 @@
       },
       "binary": "median"
     },
-    "source_sha256": "7192af0bf33e94141194cfd91958c62d66262dc40c07cc2e6fbe0b2d02b0e1b3"
+    "source_sha256": "7192af0bf33e94141194cfd91958c62d66262dc40c07cc2e6fbe0b2d02b0e1b3",
+    "source_repository": "StatLib, distributed via scikit-learn",
+    "source_identifier": "doi:10.1016/S0167-7152(96)00140-X",
+    "source_url": "https://doi.org/10.1016/S0167-7152(96)00140-X",
+    "retrieval_note": "Obtained with sklearn.datasets.fetch_california_housing and written to CSV. Source reference: Pace and Barry, Sparse spatial autoregressions, 1997."
   },
   {
     "source": "Miami",
@@ -244,7 +272,11 @@
       },
       "binary": "median"
     },
-    "source_sha256": "e743c4f6741bf9e426e60487e4f2ca66580e65118617fedab276b79c5e1a87ef"
+    "source_sha256": "e743c4f6741bf9e426e60487e4f2ca66580e65118617fedab276b79c5e1a87ef",
+    "source_repository": "OpenML",
+    "source_identifier": "openml:46942",
+    "source_url": "https://www.openml.org/d/46942",
+    "retrieval_note": "miami_housing, version 3; TabArena metadata records the data year as 2016 and the removal of duplicate homes and the parcel identifier during curation."
   },
   {
     "source": "Gas turbine",
@@ -278,7 +310,11 @@
       },
       "binary": "median"
     },
-    "source_sha256": "7dc43a6bc3e6c63aebac4cc91fea9a7152325fefc2b8ffaab5840424a12762ec"
+    "source_sha256": "7dc43a6bc3e6c63aebac4cc91fea9a7152325fefc2b8ffaab5840424a12762ec",
+    "source_repository": "UCI Machine Learning Repository",
+    "source_identifier": "doi:10.24432/C5WC95",
+    "source_url": "https://doi.org/10.24432/C5WC95",
+    "retrieval_note": "Gas Turbine CO and NOx Emission; yearly files concatenated in year order. The CO measurement is dropped by the loader."
   },
   {
     "source": "Superconductivity",
@@ -381,6 +417,10 @@
       },
       "binary": "median"
     },
-    "source_sha256": "f3de070d3cbb39b36d3671bae272450d481981e1ece01c537a4c4368234f11bf"
+    "source_sha256": "f3de070d3cbb39b36d3671bae272450d481981e1ece01c537a4c4368234f11bf",
+    "source_repository": "UCI Machine Learning Repository",
+    "source_identifier": "doi:10.24432/C53P47",
+    "source_url": "https://doi.org/10.24432/C53P47",
+    "retrieval_note": "Superconductivty Data; the 81-feature train.csv is used."
   }
 ]

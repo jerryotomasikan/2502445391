@@ -13,7 +13,7 @@ The paper argues that a reported score should be read against three reference qu
 | `notebooks/` | `Training.ipynb`, the experiment runner: data loading, deduplication, target construction, development selection, and holdout evaluation for one configuration. |
 | `runner/` | Batch drivers that execute the notebook across all configurations and seeds. |
 | `analysis/` | The analysis layers reported in the paper: paired error accounting, conditional rejection boundary, seed resolution, and the validators. |
-| `analysis/legacy/` | Earlier aggregation scripts, retained for provenance. **Some produce superseded numbers** — see `analysis/legacy/README.md` before using them. |
+| `analysis/legacy/` | Earlier aggregation scripts and their orchestrator, retained for provenance. **Some produce superseded numbers** — see `analysis/legacy/README.md` before using them. |
 | `audit/` | Recomputation of every published value from stored predictions, and figure generation. |
 | `manuscript/` | Scripts that build the manuscript and validate it against the recorded results. |
 | `results/` | The recorded outputs that back every table in the paper. |
@@ -22,7 +22,7 @@ The paper argues that a reported score should be read against three reference qu
 
 **Raw experiment directories.** The complete run artefacts are roughly 24 GB: fitted models, out-of-fold predictions, holdout predictions, split indices, and selection locks for every configuration and seed. They are too large for version control. `results/source_manifest.json` records the source file hashes, and `results/verification_checks.json` records the checks those artefacts passed.
 
-**The datasets themselves.** The sources are public but carry their own terms, and redistributing them here would add nothing that a stable identifier does not. `results/source_manifest.json` gives each source's origin, row counts, feature list, and SHA-256, which is what a reader needs to confirm they have the same file.
+**The datasets themselves.** The sources are public but carry their own terms, and redistributing them here would add nothing that a stable identifier does not. `results/source_manifest.json` gives each source's repository, resolvable identifier and URL, a retrieval note, row counts, feature list, and SHA-256, which is what a reader needs to obtain the file and confirm it matches.
 
 **Model checkpoints.** TabPFN weights are distributed by their authors, not by us.
 

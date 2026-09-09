@@ -5,6 +5,7 @@ prediksi OOF dan holdout sudah tersimpan."""
 import matplotlib; matplotlib.use("Agg")
 import sys, io, json, contextlib
 from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[2]
 import numpy as np, pandas as pd
 from sklearn.metrics import roc_auc_score, f1_score, balanced_accuracy_score, accuracy_score
 
@@ -16,7 +17,7 @@ from _common import pick_run
 # False = pakai run tanpa ketiganya (arsip pembanding).
 # 1/True (default) = run DENGAN XGBoost/CatBoost/TabPFN; 0/False = tanpa ketiganya.
 BOOSTERS = __import__("os").environ.get("PAPER_BOOSTERS", "1") not in ("0", "false", "False")
-ROOT = Path(r"PAPER_ROOT")
+ROOT = REPO_ROOT
 RUNS = ROOT / "runs"
 NB = json.load(open(ROOT / "Paper" / "Training.ipynb", encoding="utf-8"))
 C1, C2, C3 = ("".join(NB["cells"][i]["source"]) for i in (2, 4, 6))

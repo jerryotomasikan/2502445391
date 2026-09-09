@@ -1,4 +1,5 @@
 from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[1]
 import json, shutil, re
 import numpy as np
 import pandas as pd
@@ -78,7 +79,7 @@ pd.DataFrame(powerrows).to_csv(A/'prospective_sensitivity.csv',index=False)
 # Reuse only PDFs whose actual first-page identities were checked; no renamed
 # preprint is presented as the journal publisher's version.
 R=OUT/'Reference';R.mkdir(exist_ok=True)
-original=Path(r'PAPER_ROOT/Paper\Reference')
+original=REPO_ROOT / r"Paper/Reference"
 accepted=['Cao_2020_PRL_CORAL_ordinal.pdf','Gorishniy_2021_NeurIPS_FTTransformer.pdf','Grinsztajn_2022_NeurIPS_trees_outperform.pdf','Kapoor_2023_Patterns_leakage_repro_crisis.pdf','Loshchilov_2019_ICLR_AdamW.pdf','McElfresh_2023_NeurIPS_when_neural_wins.pdf','Shi_2023_PAA_CORN_ordinal.pdf','ShwartzZiv_2022_InfFusion_DL_not_all_need.pdf']
 for name in accepted:shutil.copy2(original/name,R/name)
 print('Power scenarios',powerrows)
