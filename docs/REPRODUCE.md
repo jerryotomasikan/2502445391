@@ -26,7 +26,7 @@ Three levels, in increasing cost. Each says what it needs and what it verifies.
 | `alcohol_baseline.csv` | Single-feature reference |
 | `calibration_bins.csv` | Figure 4 |
 | `prospective_sensitivity.csv` | Planning scenarios |
-| `source_manifest.json` | Dataset origins, row counts, features, SHA-256 |
+| `source_manifest.json` | Dataset repository, resolvable identifier and URL, retrieval note, row counts, features, SHA-256 |
 
 `verification_checks.json` and `final_validation.json` record the checks these outputs passed when they were produced.
 
@@ -71,14 +71,13 @@ python analysis/validate_resolution_claims.py
 
 **Needs:** the datasets, a CUDA GPU, roughly 24 hours.
 
-1. Obtain each source listed in `results/source_manifest.json` and confirm its SHA-256.
+1. Obtain each source listed in `results/source_manifest.json`. Every entry carries a resolvable identifier (`source_identifier`, `source_url`), a retrieval note, and the SHA-256 of the local file used here; confirm the hash before proceeding.
 2. Place them where the loader expects them, and install the training packages in `requirements.txt`.
 3. Run the drivers:
 
 ```bash
 python runner/run_all_datasets.py --mode research --jobs 6
 python runner/run_multiseed.py
-python runner/run_all_analysis.py
 ```
 
 4. Rebuild the audited tables:
@@ -89,10 +88,10 @@ python audit/analyze_all_ordinal_baselines.py
 python audit/refresh_paper_figures.py
 ```
 
-Retrained models will not match the recorded ones bit for bit: CUDA execution was not forced to be fully deterministic, and the seed governs candidate sampling, fold assignment, initialisation, and the ensemble weight search together. The paper's five-seed sweep quantifies how much that matters — a standard deviation of 0.0208 in red-wine holdout AUC, against paired category differences that vary by 0.0047 to 0.0142.
+Retrained models will not match the recorded ones bit for bit: CUDA execution was not forced to be fully deterministic, and the seed governs candidate sampling, fold assignment, initialization, and the ensemble weight search together. The paper's five-seed sweep quantifies how much that matters — a standard deviation of 0.0208 in red-wine holdout AUC, against paired category differences whose standard deviations are 0.0047 for TabPFN against classical and 0.0142 for from-scratch against classical.
 
 ---
 
 ## A note on `analysis/legacy/`
 
-Those scripts produced the first aggregation and are kept only for provenance. `aggregate.py` selected each category by its holdout maximum instead of by development rank, which changes reported values. Do not use them to reproduce the paper. See `analysis/legacy/README.md`.
+Those scripts produced the first aggregation and are kept only for provenance. `aggregate.py` selected each category by its holdout maximum instead of by development rank, which changes reported values. `run_all_analysis.py`, which orchestrates them, lives there for the same reason. Do not use any of them to reproduce the paper. See `analysis/legacy/README.md`.

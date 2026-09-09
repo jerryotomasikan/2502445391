@@ -1,5 +1,6 @@
 import ast, hashlib, json, sys
 from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[1]
 import numpy as np
 import pandas as pd
 from scipy.stats import binomtest
@@ -7,7 +8,7 @@ from sklearn.metrics import roc_auc_score, accuracy_score, mean_absolute_error, 
 
 BASE=Path(__file__).parent/'Naskah_Revisi'
 OUT=BASE/'audit'
-ROOT=Path(r'PAPER_ROOT')
+ROOT=REPO_ROOT
 sys.stdout.reconfigure(encoding='utf-8')
 ns={'np':np,'pd':pd,'RARE_LEVEL_MIN':10}
 tree=ast.parse((OUT/'cell_04.py').read_text(encoding='utf-8'))

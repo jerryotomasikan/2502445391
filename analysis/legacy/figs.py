@@ -1,9 +1,10 @@
 import matplotlib; matplotlib.use("Agg")
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
 from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[2]
 from scipy.stats import spearmanr
 
-RUNS = Path(r"PAPER_ROOT/runs")
+RUNS = REPO_ROOT / r"runs"
 df = pd.read_csv(RUNS / "aggregate.csv")
 df["ceiling"] = df[["auc_klasik", "auc_neural", "auc_sv"]].max(axis=1) >= 0.97
 OUT = RUNS / "figures"; OUT.mkdir(exist_ok=True)

@@ -37,8 +37,8 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-NOTEBOOK = ROOT / "Paper" / "Training.ipynb"
+ROOT = Path(__file__).resolve().parents[1]
+NOTEBOOK = ROOT / "notebooks" / "Training.ipynb"
 RUNS = ROOT / "runs"
 
 # Urutan default: yang murah dulu supaya masalah ketahuan cepat.

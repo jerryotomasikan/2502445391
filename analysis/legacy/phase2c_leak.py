@@ -1,6 +1,7 @@
 """Fase 2c: inflasi akibat kebocoran duplikat (dedup ON vs OFF)."""
 import sys, io, json
 from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[2]
 import numpy as np, pandas as pd
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 import sys as _sys; _sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent))
@@ -8,7 +9,7 @@ from _common import pick_run
 
 # 1/True (default) = run DENGAN XGBoost/CatBoost/TabPFN; 0/False = tanpa ketiganya.
 BOOSTERS = __import__("os").environ.get("PAPER_BOOSTERS", "1") not in ("0", "false", "False")
-RUNS = Path(r"PAPER_ROOT/runs")
+RUNS = REPO_ROOT / r"runs"
 CLASSIC = {"LogisticRegression","SVM_RBF","RandomForest","ExtraTrees","HistGradientBoosting"}
 NEURAL  = {"MLP","FTTransformer"}
 

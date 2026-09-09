@@ -1,8 +1,10 @@
+from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[2]
 import sys, io
 import numpy as np, pandas as pd
 from scipy.stats import spearmanr
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-df = pd.read_csv(r"PAPER_ROOT/runs\aggregate.csv")
+df = pd.read_csv(str(REPO_ROOT / r"runs/aggregate.csv"))
 
 print("=" * 100)
 print("PERIKSA EFEK LANGIT-LANGIT (ceiling) — kalau AUC ~1.0, 'neural tak menang' jadi trivial")

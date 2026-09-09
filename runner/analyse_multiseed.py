@@ -21,7 +21,7 @@ import numpy as np
 import pandas as pd
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs_multiseed"
 PAIR = ("wine_red", "wine_red_nodedup")   # (dedup aktif, dedup mati)
 

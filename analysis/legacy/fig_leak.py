@@ -1,7 +1,8 @@
 import matplotlib; matplotlib.use("Agg")
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
 from pathlib import Path
-RUNS = Path(r"PAPER_ROOT/runs")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+RUNS = REPO_ROOT / r"runs"
 df = pd.read_csv(RUNS/"phase2c_leakage.csv").sort_values("dup_pct")
 plt.rcParams.update({"font.size": 9, "figure.dpi": 200})
 fig, ax = plt.subplots(1, 2, figsize=(9.6, 4.0))

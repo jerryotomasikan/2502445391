@@ -9,4 +9,6 @@ The published numbers come from the audited path instead:
 - `results/audited_results.csv` and `results/category_bootstrap.csv` for category comparisons
 - each run's `ordinal_selection_lock.json` for the primary ordinal model, never the first row of `test_metrics_ordinal.csv`, which is sorted by test result
 
+`run_all_analysis.py` orchestrates these scripts and is kept here for the same reason.
+
 If you are reproducing the paper, use `analysis/` and `audit/`. Use this directory only to trace how the earlier numbers were obtained.

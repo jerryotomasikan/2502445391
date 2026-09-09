@@ -1,6 +1,7 @@
 """Fase 1: agregasi 19 run -> tabel induk + uji apakah klaim paper berdiri."""
 import json, glob, sys, io
 from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[2]
 import numpy as np, pandas as pd
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
@@ -11,7 +12,7 @@ from _common import pick_run
 # False = pakai run tanpa ketiganya (arsip pembanding).
 # 1/True (default) = run DENGAN XGBoost/CatBoost/TabPFN; 0/False = tanpa ketiganya.
 BOOSTERS = __import__("os").environ.get("PAPER_BOOSTERS", "1") not in ("0", "false", "False")
-RUNS = Path(r"PAPER_ROOT/runs")
+RUNS = REPO_ROOT / r"runs"
 NEURAL = {"MLP", "FTTransformer"}          # dilatih dari nol
 PRETRAINED = {"TabPFN"}                    # transformer pralatih [5]
 CLASSIC = {"LogisticRegression", "SVM_RBF", "RandomForest", "ExtraTrees", "HistGradientBoosting",
