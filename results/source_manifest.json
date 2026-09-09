@@ -1,0 +1,386 @@
+[
+  {
+    "source": "Red wine",
+    "file": "winequality-red.csv",
+    "source_rows": 1599,
+    "analyzed_before_dedup": 1599,
+    "analyzed_after_dedup": 1359,
+    "features": [
+      "fixed_acidity",
+      "volatile_acidity",
+      "citric_acid",
+      "residual_sugar",
+      "chlorides",
+      "free_sulfur_dioxide",
+      "total_sulfur_dioxide",
+      "density",
+      "ph",
+      "sulphates",
+      "alcohol"
+    ],
+    "spec": {
+      "file": "winequality-red.csv",
+      "sep": ";",
+      "target": "quality",
+      "ordinal": {
+        "kind": "native"
+      },
+      "binary": "ge:6"
+    },
+    "source_sha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e"
+  },
+  {
+    "source": "White wine",
+    "file": "winequality-white.csv",
+    "source_rows": 4898,
+    "analyzed_before_dedup": 4898,
+    "analyzed_after_dedup": 3961,
+    "features": [
+      "fixed_acidity",
+      "volatile_acidity",
+      "citric_acid",
+      "residual_sugar",
+      "chlorides",
+      "free_sulfur_dioxide",
+      "total_sulfur_dioxide",
+      "density",
+      "ph",
+      "sulphates",
+      "alcohol"
+    ],
+    "spec": {
+      "file": "winequality-white.csv",
+      "sep": ";",
+      "target": "quality",
+      "ordinal": {
+        "kind": "native"
+      },
+      "binary": "ge:6"
+    },
+    "source_sha256": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+  },
+  {
+    "source": "Air quality",
+    "file": "air_quality_2025.csv",
+    "source_rows": 5000,
+    "analyzed_before_dedup": 5000,
+    "analyzed_after_dedup": 5000,
+    "features": [
+      "temperature",
+      "humidity",
+      "pm2_5",
+      "pm10",
+      "no2",
+      "so2",
+      "co",
+      "proximity_to_industrial_areas",
+      "population_density"
+    ],
+    "spec": {
+      "file": "air_quality_2025.csv",
+      "sep": ",",
+      "target": "air_quality_level",
+      "ordinal": {
+        "kind": "native"
+      },
+      "binary": "ge:2"
+    },
+    "source_sha256": "b20f9699baf541b02f98ad59c4b06fd0da15ac64facb4a63b1d27ced3c80864c"
+  },
+  {
+    "source": "Concrete",
+    "file": "concrete_compressive_strength.csv",
+    "source_rows": 1030,
+    "analyzed_before_dedup": 1030,
+    "analyzed_after_dedup": 996,
+    "features": [
+      "cement",
+      "blast_furnace_slag",
+      "fly_ash",
+      "water",
+      "superplasticizer",
+      "coarse_aggregate",
+      "fine_aggregate",
+      "age_day"
+    ],
+    "spec": {
+      "file": "concrete_compressive_strength.csv",
+      "sep": ",",
+      "target": "compressive_strength",
+      "ordinal": {
+        "kind": "bin",
+        "bins": 6,
+        "strategy": "quantile"
+      },
+      "binary": "median"
+    },
+    "source_sha256": "42af38e31a97bae4a609b36d8d56407cf9b355d7ce0c854b0833964096de3e7e"
+  },
+  {
+    "source": "Energy",
+    "file": "energy_efficiency.csv",
+    "source_rows": 768,
+    "analyzed_before_dedup": 768,
+    "analyzed_after_dedup": 768,
+    "features": [
+      "x1",
+      "x2",
+      "x3",
+      "x4",
+      "x5",
+      "x6",
+      "x7",
+      "x8"
+    ],
+    "spec": {
+      "file": "energy_efficiency.csv",
+      "sep": ",",
+      "target": "Y1",
+      "drop": [
+        "Y2"
+      ],
+      "ordinal": {
+        "kind": "bin",
+        "bins": 6,
+        "strategy": "quantile"
+      },
+      "binary": "median"
+    },
+    "source_sha256": "483904d33ab6db8bb0d1791d81410c18567c6b967035325a844de8ca97046ddc"
+  },
+  {
+    "source": "Abalone",
+    "file": "abalone.csv",
+    "source_rows": 4177,
+    "analyzed_before_dedup": 4177,
+    "analyzed_after_dedup": 4177,
+    "features": [
+      "length",
+      "diameter",
+      "height",
+      "wholeweight",
+      "shuckedweight",
+      "visceraweight",
+      "shellweight"
+    ],
+    "spec": {
+      "file": "abalone.csv",
+      "sep": ",",
+      "target": "Rings",
+      "drop": [
+        "Sex"
+      ],
+      "ordinal": {
+        "kind": "bin",
+        "bins": 6,
+        "strategy": "quantile"
+      },
+      "binary": "median"
+    },
+    "source_sha256": "de276460aa7d3660dcf06ec31840c19c1af83a37b1676fa2f4728a962a86572d"
+  },
+  {
+    "source": "California",
+    "file": "california_housing.csv",
+    "source_rows": 20640,
+    "analyzed_before_dedup": 4898,
+    "analyzed_after_dedup": 4898,
+    "features": [
+      "medinc",
+      "houseage",
+      "averooms",
+      "avebedrms",
+      "population",
+      "aveoccup",
+      "latitude",
+      "longitude"
+    ],
+    "spec": {
+      "file": "california_housing.csv",
+      "sep": ",",
+      "target": "MedHouseVal",
+      "subsample": 4898,
+      "ordinal": {
+        "kind": "bin",
+        "bins": 6,
+        "strategy": "quantile"
+      },
+      "binary": "median"
+    },
+    "source_sha256": "7192af0bf33e94141194cfd91958c62d66262dc40c07cc2e6fbe0b2d02b0e1b3"
+  },
+  {
+    "source": "Miami",
+    "file": "miami_housing_2025.csv",
+    "source_rows": 13776,
+    "analyzed_before_dedup": 4898,
+    "analyzed_after_dedup": 4898,
+    "features": [
+      "latitude",
+      "longitude",
+      "lnd_sqfoot",
+      "tot_lvg_area",
+      "spec_feat_val",
+      "rail_dist",
+      "ocean_dist",
+      "water_dist",
+      "cntr_dist",
+      "subcntr_di",
+      "hwy_dist",
+      "age",
+      "avno60plus",
+      "month_sold",
+      "structure_quality"
+    ],
+    "spec": {
+      "file": "miami_housing_2025.csv",
+      "sep": ",",
+      "target": "SALE_PRC",
+      "subsample": 4898,
+      "ordinal": {
+        "kind": "bin",
+        "bins": 6,
+        "strategy": "quantile"
+      },
+      "binary": "median"
+    },
+    "source_sha256": "e743c4f6741bf9e426e60487e4f2ca66580e65118617fedab276b79c5e1a87ef"
+  },
+  {
+    "source": "Gas turbine",
+    "file": "gas_turbine_emission.csv",
+    "source_rows": 36733,
+    "analyzed_before_dedup": 4898,
+    "analyzed_after_dedup": 4898,
+    "features": [
+      "at",
+      "ap",
+      "ah",
+      "afdp",
+      "gtep",
+      "tit",
+      "tat",
+      "tey",
+      "cdp"
+    ],
+    "spec": {
+      "file": "gas_turbine_emission.csv",
+      "sep": ",",
+      "target": "NOX",
+      "drop": [
+        "CO"
+      ],
+      "subsample": 4898,
+      "ordinal": {
+        "kind": "bin",
+        "bins": 6,
+        "strategy": "quantile"
+      },
+      "binary": "median"
+    },
+    "source_sha256": "7dc43a6bc3e6c63aebac4cc91fea9a7152325fefc2b8ffaab5840424a12762ec"
+  },
+  {
+    "source": "Superconductivity",
+    "file": "superconductivity.csv",
+    "source_rows": 21263,
+    "analyzed_before_dedup": 4898,
+    "analyzed_after_dedup": 4169,
+    "features": [
+      "number_of_elements",
+      "mean_atomic_mass",
+      "wtd_mean_atomic_mass",
+      "gmean_atomic_mass",
+      "wtd_gmean_atomic_mass",
+      "entropy_atomic_mass",
+      "wtd_entropy_atomic_mass",
+      "range_atomic_mass",
+      "wtd_range_atomic_mass",
+      "std_atomic_mass",
+      "wtd_std_atomic_mass",
+      "mean_fie",
+      "wtd_mean_fie",
+      "gmean_fie",
+      "wtd_gmean_fie",
+      "entropy_fie",
+      "wtd_entropy_fie",
+      "range_fie",
+      "wtd_range_fie",
+      "std_fie",
+      "wtd_std_fie",
+      "mean_atomic_radius",
+      "wtd_mean_atomic_radius",
+      "gmean_atomic_radius",
+      "wtd_gmean_atomic_radius",
+      "entropy_atomic_radius",
+      "wtd_entropy_atomic_radius",
+      "range_atomic_radius",
+      "wtd_range_atomic_radius",
+      "std_atomic_radius",
+      "wtd_std_atomic_radius",
+      "mean_density",
+      "wtd_mean_density",
+      "gmean_density",
+      "wtd_gmean_density",
+      "entropy_density",
+      "wtd_entropy_density",
+      "range_density",
+      "wtd_range_density",
+      "std_density",
+      "wtd_std_density",
+      "mean_electronaffinity",
+      "wtd_mean_electronaffinity",
+      "gmean_electronaffinity",
+      "wtd_gmean_electronaffinity",
+      "entropy_electronaffinity",
+      "wtd_entropy_electronaffinity",
+      "range_electronaffinity",
+      "wtd_range_electronaffinity",
+      "std_electronaffinity",
+      "wtd_std_electronaffinity",
+      "mean_fusionheat",
+      "wtd_mean_fusionheat",
+      "gmean_fusionheat",
+      "wtd_gmean_fusionheat",
+      "entropy_fusionheat",
+      "wtd_entropy_fusionheat",
+      "range_fusionheat",
+      "wtd_range_fusionheat",
+      "std_fusionheat",
+      "wtd_std_fusionheat",
+      "mean_thermalconductivity",
+      "wtd_mean_thermalconductivity",
+      "gmean_thermalconductivity",
+      "wtd_gmean_thermalconductivity",
+      "entropy_thermalconductivity",
+      "wtd_entropy_thermalconductivity",
+      "range_thermalconductivity",
+      "wtd_range_thermalconductivity",
+      "std_thermalconductivity",
+      "wtd_std_thermalconductivity",
+      "mean_valence",
+      "wtd_mean_valence",
+      "gmean_valence",
+      "wtd_gmean_valence",
+      "entropy_valence",
+      "wtd_entropy_valence",
+      "range_valence",
+      "wtd_range_valence",
+      "std_valence",
+      "wtd_std_valence"
+    ],
+    "spec": {
+      "file": "superconductivity.csv",
+      "sep": ",",
+      "target": "critical_temp",
+      "subsample": 4898,
+      "ordinal": {
+        "kind": "bin",
+        "bins": 6,
+        "strategy": "quantile"
+      },
+      "binary": "median"
+    },
+    "source_sha256": "f3de070d3cbb39b36d3671bae272450d481981e1ece01c537a4c4368234f11bf"
+  }
+]

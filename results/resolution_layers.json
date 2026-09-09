@@ -1,0 +1,73 @@
+{
+  "seed_resolution": {
+    "seeds": [
+      "20260906",
+      "20260907",
+      "20260908",
+      "20260909",
+      "20260910"
+    ],
+    "dedup_auc_mean": 0.8417628882745162,
+    "dedup_auc_sd": 0.020770744884528798,
+    "dedup_auc_min": 0.825391662600965,
+    "dedup_auc_max": 0.8738006179866645,
+    "dedup_auc_spread": 0.04840895538569956,
+    "retained_auc_mean": 0.9125475882098983,
+    "retained_auc_sd": 0.014573710842939947,
+    "protocol_delta_mean": 0.07078469993538213,
+    "protocol_delta_sd": 0.00894798249356929,
+    "scratch_minus_classical_median": -0.005559096381276163,
+    "scratch_minus_classical_median_abs": 0.007526368182105836,
+    "pretrained_minus_classical_median": 0.0029407476830156654,
+    "pretrained_minus_classical_median_abs": 0.006734650520501373,
+    "pooled_median_abs": 0.006920523138340906,
+    "sd_over_pooled_median_abs": 3.0013258346692386,
+    "protocol_delta_over_seed_sd": 3.4079037766289497,
+    "paired_scratch_minus_classical_sd": 0.014165853105266905,
+    "paired_tabpfn_minus_classical_sd": 0.004739862160443065,
+    "note": "Paired category differences are measured on red wine only; the cross-configuration medians summarise all 19 configurations."
+  },
+  "rejection_boundary": {
+    "configurations": 19,
+    "unattainable": 6,
+    "unattainable_tasks": [
+      "Air quality",
+      "Concrete EF",
+      "Concrete EW",
+      "Energy EF",
+      "Energy EW",
+      "Red wine"
+    ],
+    "fell_short": 18,
+    "reached_unadjusted": 1,
+    "reached_tasks": [
+      "Superconductivity EW"
+    ],
+    "survived_holm": 0,
+    "discordant_median": 16,
+    "discordant_min": 2,
+    "discordant_max": 39,
+    "discordant_total": 278,
+    "mcnemar_crosscheck": "all 19 stored p-values reproduced exactly"
+  },
+  "effort_versus_protocol": {
+    "wine_red": {
+      "source": "Red wine",
+      "auc_single_feature": "0.7516",
+      "auc_primary": "0.8263",
+      "modelling_gain": "+0.0747",
+      "protocol_gain": "+0.0796",
+      "protocol_minus_modelling": "+0.0049",
+      "ratio": "1.07"
+    },
+    "wine_white": {
+      "source": "White wine",
+      "auc_single_feature": "0.7338",
+      "auc_primary": "0.8305",
+      "modelling_gain": "+0.0967",
+      "protocol_gain": "+0.0773",
+      "protocol_minus_modelling": "-0.0194",
+      "ratio": "0.80"
+    }
+  }
+}

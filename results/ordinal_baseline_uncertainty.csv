@@ -1,0 +1,3 @@
+dataset,n,model,constant,model_successes,constant_successes,only_model,only_constant,difference,ci_lo,ci_hi,bootstrap_replicates,seed,stratification,selection
+wine_red,272,HistGBRegressor,6,263,256,8,1,0.025735294117647058,0.007352941176470588,0.04779411764705882,3000,314159,binary label,fixed from development
+miami_ewidth,980,TabPFNRegressor,1,975,957,18,0,0.018367346938775512,0.01020408163265306,0.027551020408163266,3000,314159,binary label,fixed from development

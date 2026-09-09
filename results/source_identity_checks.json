@@ -1,0 +1,20 @@
+[
+  {
+    "source": "air",
+    "rows": 5000,
+    "columns": 10,
+    "identical_numeric_values": true,
+    "max_absolute_difference": 0.0,
+    "local_sha256": "b20f9699baf541b02f98ad59c4b06fd0da15ac64facb4a63b1d27ced3c80864c",
+    "openml_arff_sha256": "6c9168504138840962acfd8fa28aa58bb2cce8da1b0abc2cb43a910c56c89131"
+  },
+  {
+    "source": "miami",
+    "rows": 13776,
+    "columns": 16,
+    "identical_numeric_values": true,
+    "max_absolute_difference": 0.0,
+    "local_sha256": "e743c4f6741bf9e426e60487e4f2ca66580e65118617fedab276b79c5e1a87ef",
+    "openml_arff_sha256": "987865f813e493f32bcc21a5891b5f4830d632f409487247c74bb7ca40e34096"
+  }
+]

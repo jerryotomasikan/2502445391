@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use this software or the recorded results, please cite the paper.
+title: >-
+  Analysis code for "Quantifying Predictive Gains in Tabular Learning
+  through Ordinal Baselines and Protocol Analysis"
+type: software
+authors:
+  - family-names: Heriyanto
+    orcid: https://orcid.org/0009-0002-5827-0989
+    affiliation: >-
+      Department of Industrial Engineering, BINUS Graduate Program,
+      Bina Nusantara University, Jakarta, Indonesia
+  - family-names: Suharjito
+    orcid: https://orcid.org/0000-0002-0853-8812
+    affiliation: >-
+      Department of Industrial Engineering, BINUS Graduate Program,
+      Bina Nusantara University, Jakarta, Indonesia
+license: MIT
+repository-code: REPO_URL_PLACEHOLDER
+version: 1.0.0
+date-released: 2026-09-09
+keywords:
+  - tabular learning
+  - evaluation protocols
+  - ordinal prediction
+  - duplicate records
+  - reproducibility

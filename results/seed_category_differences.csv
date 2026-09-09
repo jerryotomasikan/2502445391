@@ -1,0 +1,6 @@
+seed,classic,classic_auc,from_scratch,from_scratch_auc,tabpfn_auc,scratch_minus_classical,tabpfn_minus_classical
+20260906,ExtraTrees,0.821814,FTTransformer,0.815851,0.824253,-0.005963,+0.002439
+20260907,ExtraTrees,0.821543,FTTransformer,0.808804,0.835041,-0.012739,+0.013498
+20260908,ExtraTrees,0.832493,FTTransformer,0.821434,0.837426,-0.011059,+0.004933
+20260909,ExtraTrees,0.869898,MLP,0.827940,0.872987,-0.041958,+0.003090
+20260910,ExtraTrees,0.850003,MLP,0.828915,0.859760,-0.021087,+0.009758
