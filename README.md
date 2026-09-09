@@ -1,5 +1,7 @@
 # Quantifying Predictive Gains in Tabular Learning
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22679517.svg)](https://doi.org/10.5281/zenodo.22679517)
+
 Analysis and manuscript-generation code for the paper *Quantifying Predictive Gains in Tabular Learning through Ordinal Baselines and Protocol Analysis*.
 
 The paper argues that a reported score should be read against three reference quantities: what a feature-free baseline already achieves, how the evaluation population was assembled, and how far the procedure moves when only its seed changes. This repository contains the code that computes all three, together with the recorded results that back every table in the paper.
@@ -42,7 +44,9 @@ Recorded run context: Python 3.12.14, scikit-learn 1.9.0, PyTorch 2.6.0+cu124, X
 
 ## Citation
 
-See `CITATION.cff`. If you use the reporting structure rather than the code, citing the paper is sufficient.
+The archived version used in the paper is [10.5281/zenodo.22679517](https://doi.org/10.5281/zenodo.22679517). The concept DOI [10.5281/zenodo.22679516](https://doi.org/10.5281/zenodo.22679516) always resolves to the latest version.
+
+Machine-readable metadata is in `CITATION.cff`. If you use the reporting structure rather than the code, citing the paper is sufficient.
 
 ## Licence
 

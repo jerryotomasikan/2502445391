@@ -16,7 +16,8 @@ authors:
       Department of Industrial Engineering, BINUS Graduate Program,
       Bina Nusantara University, Jakarta, Indonesia
 license: MIT
-repository-code: REPO_URL_PLACEHOLDER
+doi: 10.5281/zenodo.22679517
+repository-code: https://github.com/jerryotomasikan/2502445391
 version: 1.0.0
 date-released: 2026-09-09
 keywords:
@@ -25,3 +26,10 @@ keywords:
   - ordinal prediction
   - duplicate records
   - reproducibility
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22679517
+    description: Archived version used in the paper
+  - type: doi
+    value: 10.5281/zenodo.22679516
+    description: Concept DOI resolving to the latest version
