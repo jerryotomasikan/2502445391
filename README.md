@@ -16,7 +16,7 @@ The paper argues that a reported score should be read against three reference qu
 | `analysis/legacy/` | Earlier aggregation scripts and their orchestrator, retained for provenance. **Some produce superseded numbers** — see `analysis/legacy/README.md` before using them. |
 | `audit/` | Recomputation of every published value from stored predictions, and figure generation. |
 | `manuscript/` | Scripts that build the manuscript and validate it against the recorded results. |
-| `results/` | The recorded outputs that back every table in the paper. |
+| `results/` | The recorded outputs that back every table in the paper, including ensemble membership and weights and the run directory selected for each configuration. |
 
 ## What is not here, and why
 

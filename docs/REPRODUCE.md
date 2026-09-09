@@ -27,6 +27,8 @@ Three levels, in increasing cost. Each says what it needs and what it verifies.
 | `calibration_bins.csv` | Figure 4 |
 | `prospective_sensitivity.csv` | Planning scenarios |
 | `source_manifest.json` | Dataset repository, resolvable identifier and URL, retrieval note, row counts, features, SHA-256 |
+| `ensemble_members.csv` | Soft-voting membership and weights per configuration, and the selected primary/runner-up pair |
+| `selected_runs.json` | Which run directory each configuration's reported numbers come from, as a path relative to `runs/` |
 
 `verification_checks.json` and `final_validation.json` record the checks these outputs passed when they were produced.
 
@@ -36,7 +38,7 @@ Three levels, in increasing cost. Each says what it needs and what it verifies.
 
 **Needs:** the raw run directories (~24 GB).
 
-These are not in the repository. Each configuration directory contains `test_predictions_binary.csv`, `test_predictions_ordinal.csv`, `split_indices.npz`, `binary_selection_lock.json`, `ordinal_selection_lock.json`, and `data_audit.json`. Request them from the corresponding author, or regenerate them at Level 3.
+These are not in the repository. `results/selected_runs.json` names the directory each configuration's numbers come from, and `notebooks/cell_04_targets.py` carries the target-construction code the audit scripts import. Each configuration directory contains `test_predictions_binary.csv`, `test_predictions_ordinal.csv`, `split_indices.npz`, `binary_selection_lock.json`, `ordinal_selection_lock.json`, and `data_audit.json`. Request them from the corresponding author, or regenerate them at Level 3.
 
 With `runs/` and `runs_multiseed/` in place beside this repository:
 
