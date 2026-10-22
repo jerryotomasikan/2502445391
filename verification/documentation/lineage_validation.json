@@ -1,0 +1,2382 @@
+{
+  "checks": [
+    {
+      "check": "abalone_efreq source SHA256",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq finite input",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq prediction row order",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth source SHA256",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth finite input",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth prediction row order",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "airquality source SHA256",
+      "passed": true
+    },
+    {
+      "check": "airquality finite input",
+      "passed": true
+    },
+    {
+      "check": "airquality reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "airquality complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "airquality prediction row order",
+      "passed": true
+    },
+    {
+      "check": "airquality binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "airquality bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "airquality ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "airquality ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "california_efreq source SHA256",
+      "passed": true
+    },
+    {
+      "check": "california_efreq finite input",
+      "passed": true
+    },
+    {
+      "check": "california_efreq reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "california_efreq complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "california_efreq prediction row order",
+      "passed": true
+    },
+    {
+      "check": "california_efreq binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "california_efreq bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "california_efreq ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_efreq ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth source SHA256",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth finite input",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth prediction row order",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq source SHA256",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq finite input",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq prediction row order",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup source SHA256",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup finite input",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup prediction row order",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth source SHA256",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth finite input",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth prediction row order",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq source SHA256",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq finite input",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq prediction row order",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth source SHA256",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth finite input",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth prediction row order",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq source SHA256",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq finite input",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq prediction row order",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth source SHA256",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth finite input",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth prediction row order",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq source SHA256",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq finite input",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq prediction row order",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth source SHA256",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth finite input",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth prediction row order",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq source SHA256",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq finite input",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq prediction row order",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup source SHA256",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup finite input",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup prediction row order",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth source SHA256",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth finite input",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth prediction row order",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_white source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_white finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_white reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_white complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_white prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_white binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_white bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_white ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq ord fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup source SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup finite input",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup reconstructed clean SHA256",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup complete disjoint split",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup prediction row order",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup binary/ordinal labels",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup bin fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup bin fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup bin fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup bin fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup bin fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup bin fold coverage",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup ord fold 0 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup ord fold 1 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup ord fold 2 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup ord fold 3 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup ord fold 4 disjoint",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup ord fold coverage",
+      "passed": true
+    }
+  ],
+  "passed": 594,
+  "failed": 0
+}

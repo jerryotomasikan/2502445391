@@ -1,0 +1,59 @@
+{
+  "source_filename": "california_housing.csv",
+  "source_row_index": "0-based data-row index excluding CSV header, before subsampling",
+  "original_clean_sha256": "294888ce481928cb014dc20185ebac3118406308534d352b360037f21b14631b",
+  "reconstructed_clean_sha256": "294888ce481928cb014dc20185ebac3118406308534d352b360037f21b14631b",
+  "lineage_status": "Reconstructed from hash-matched source and original target functions; clean checksum and all saved holdout labels match.",
+  "seed": 20260906,
+  "spec": {
+    "file": "california_housing.csv",
+    "sep": ",",
+    "target": "MedHouseVal",
+    "subsample": 4898,
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "median"
+  },
+  "constant_selected_on_development": 1,
+  "original_target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (1.8275)"
+  },
+  "bin_edges": [
+    0.225,
+    0.9811666666666665,
+    1.427,
+    1.8275000000000001,
+    2.344666666666666,
+    3.270499999999999,
+    5.00001
+  ],
+  "interval_convention": "right-closed; first interval includes minimum",
+  "raw_bin_to_final_grade": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ],
+    "4": [
+      4
+    ],
+    "5": [
+      5
+    ]
+  },
+  "binary_threshold": 1.8275000000000001,
+  "binary_operator": ">"
+}

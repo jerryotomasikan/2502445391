@@ -1,0 +1,28 @@
+{
+  "title": "Prediction-level verification data for ordinal baselines and duplicate handling in tabular learning",
+  "upload_type": "dataset",
+  "description": "Saved binary probabilities, ordinal scores and predictions, model selection records, split and fold indices for 33 recorded runs. Includes checksum-verified reconstructed source-row lineage, duplicate-group identifiers, transformed targets, exact bin boundaries, development-selected constant baseline predictions, original environment records, and portable verification code. Upstream raw sources and fitted model weights are not redistributed. Data and documentation CC BY 4.0; software MIT; original source dataset terms remain separate.",
+  "creators": [
+    {
+      "name": "Heriyanto",
+      "affiliation": "Department of Industrial Engineering, BINUS Graduate Program, Bina Nusantara University, Jakarta, Indonesia",
+      "orcid": "0009-0002-5827-0989"
+    },
+    {
+      "name": "Suharjito",
+      "affiliation": "Department of Industrial Engineering, BINUS Graduate Program, Bina Nusantara University, Jakarta, Indonesia",
+      "orcid": "0000-0002-0853-8812"
+    }
+  ],
+  "version": "1.1.0",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "tabular learning",
+    "ordinal prediction",
+    "duplicate handling",
+    "saved predictions",
+    "reproducibility"
+  ],
+  "language": "eng"
+}

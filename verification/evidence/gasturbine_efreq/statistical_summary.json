@@ -1,0 +1,12 @@
+{
+  "primary": "TabPFN",
+  "runner_up": "SoftVoting",
+  "mcnemar_b": 16,
+  "mcnemar_c": 12,
+  "mcnemar_exact_p": 0.5715881884098053,
+  "primary_accuracy_wilson95": [
+    0.9040054579344219,
+    0.9375935543622369
+  ],
+  "bootstrap_repeats": 3000
+}

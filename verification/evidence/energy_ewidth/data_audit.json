@@ -1,0 +1,64 @@
+{
+  "dataset_id": "energy_ewidth",
+  "spec": {
+    "file": "energy_efficiency.csv",
+    "sep": ",",
+    "target": "Y1",
+    "drop": [
+      "Y2"
+    ],
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "uniform"
+    },
+    "binary": "median"
+  },
+  "source_path": "C:\\Users\\jerry\\Documents\\Paper\\Dataset\\energy_efficiency.csv",
+  "source_sha256": "483904d33ab6db8bb0d1791d81410c18567c6b967035325a844de8ca97046ddc",
+  "clean_sha256": "3dcce04af26c6eae231151026c988ecc423cb4499e9e12e6868c4d63274f8b0a",
+  "rows_raw": 768,
+  "rows_clean": 768,
+  "duplicates_removed": 0,
+  "subsample_applied": 0,
+  "dedup": true,
+  "conflicting_feature_groups": 0,
+  "target_column_source": "y1",
+  "target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (18.95)"
+  },
+  "ordinal_levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ordinal_counts_clean": {
+    "0": 120,
+    "1": 257,
+    "2": 61,
+    "3": 130,
+    "4": 130,
+    "5": 70
+  },
+  "binary_counts_clean": {
+    "0": 384,
+    "1": 384
+  },
+  "features": [
+    "x1",
+    "x2",
+    "x3",
+    "x4",
+    "x5",
+    "x6",
+    "x7",
+    "x8"
+  ],
+  "n_features": 8
+}

@@ -1,0 +1,61 @@
+{
+  "dataset_id": "airquality",
+  "spec": {
+    "file": "air_quality_2025.csv",
+    "sep": ",",
+    "target": "air_quality_level",
+    "ordinal": {
+      "kind": "native"
+    },
+    "binary": "ge:2"
+  },
+  "source_path": "C:\\Users\\jerry\\Documents\\Paper\\Dataset\\air_quality_2025.csv",
+  "source_sha256": "b20f9699baf541b02f98ad59c4b06fd0da15ac64facb4a63b1d27ced3c80864c",
+  "clean_sha256": "d7e3d4528ee246935060bd52940449026f6cd3b300f89a93c6df5551ab367ced",
+  "rows_raw": 5000,
+  "rows_clean": 5000,
+  "duplicates_removed": 0,
+  "subsample_applied": 0,
+  "dedup": true,
+  "conflicting_feature_groups": 0,
+  "target_column_source": "air_quality_level",
+  "target_meta": {
+    "ordinal_kind": "native",
+    "native_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "merged_levels": {},
+    "binary_rule": "target >= 2"
+  },
+  "ordinal_levels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "ordinal_counts_clean": {
+    "0": 500,
+    "1": 1000,
+    "2": 1500,
+    "3": 2000
+  },
+  "binary_counts_clean": {
+    "0": 1500,
+    "1": 3500
+  },
+  "features": [
+    "temperature",
+    "humidity",
+    "pm2_5",
+    "pm10",
+    "no2",
+    "so2",
+    "co",
+    "proximity_to_industrial_areas",
+    "population_density"
+  ],
+  "n_features": 9
+}

@@ -1,0 +1,14 @@
+{
+  "tasks": 19,
+  "sources": 10,
+  "positive_net_gains": 18,
+  "zero_baseline_error_tasks": [
+    "wine_red_efreq"
+  ],
+  "lower_gain_ew": 7,
+  "higher_raw_accuracy_ew": 5,
+  "tied_raw_accuracy_ew": 1,
+  "lower_raw_accuracy_ew": 1,
+  "higher_constant_accuracy_ew": 7,
+  "interpretation": "Post hoc descriptive counts on fixed holdouts; related task variants are dependent; no new inferential tests."
+}

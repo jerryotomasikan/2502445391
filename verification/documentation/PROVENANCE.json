@@ -1,0 +1,10 @@
+{
+  "release": "v1.1.0",
+  "prepared_on": "2026-10-22",
+  "original_git_head_before_new_release": "636f42563539bd136989c0ba5f7fa0fed8f5049a",
+  "source_artifacts": "Original saved Evidence run directories recovered from the author backup",
+  "upstream_raw_sources_redistributed": false,
+  "lineage_reconstructed_after_experiments": true,
+  "new_model_training": false,
+  "source_row_reconstruction_verified_by_clean_sha256": true
+}

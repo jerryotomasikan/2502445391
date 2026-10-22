@@ -1,0 +1,59 @@
+{
+  "source_filename": "superconductivity.csv",
+  "source_row_index": "0-based data-row index excluding CSV header, before subsampling",
+  "original_clean_sha256": "f0b7d9c2559592016b7d83a84d0532c1b2daa544f93d11238ce18a73d7978d7f",
+  "reconstructed_clean_sha256": "f0b7d9c2559592016b7d83a84d0532c1b2daa544f93d11238ce18a73d7978d7f",
+  "lineage_status": "Reconstructed from hash-matched source and original target functions; clean checksum and all saved holdout labels match.",
+  "seed": 20260906,
+  "spec": {
+    "file": "superconductivity.csv",
+    "sep": ",",
+    "target": "critical_temp",
+    "subsample": 4898,
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "median"
+  },
+  "constant_selected_on_development": 1,
+  "original_target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (20)"
+  },
+  "bin_edges": [
+    0.00138,
+    3.2779166666666644,
+    8.20666666666666,
+    20.0,
+    40.0,
+    79.2,
+    143.0
+  ],
+  "interval_convention": "right-closed; first interval includes minimum",
+  "raw_bin_to_final_grade": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ],
+    "4": [
+      4
+    ],
+    "5": [
+      5
+    ]
+  },
+  "binary_threshold": 20.0,
+  "binary_operator": ">"
+}

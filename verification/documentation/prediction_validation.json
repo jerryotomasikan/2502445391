@@ -1,0 +1,5346 @@
+{
+  "scope": "Independent recalculation from released saved predictions; no model retraining. Lineage source reconstruction is checked separately.",
+  "runs": 33,
+  "bootstrap_replicates": 3000,
+  "numeric_tolerances": {
+    "MAE": 5e-08,
+    "other_metrics_and_intervals": 1e-09,
+    "reason": "Some original float32 ordinal scores were exported as decimal CSV with limited precision. Maximum observed absolute MAE discrepancy is approximately 1.15e-8 grade units, below reported digits. CSV parsing uses round_trip to preserve threshold boundary values."
+  },
+  "validation_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "passed": 1332,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "abalone_efreq split matches rows",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq lineage labels",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq development constant",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq published paired inference",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth split matches rows",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth lineage labels",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth development constant",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth published paired inference",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "airquality split matches rows",
+      "passed": true
+    },
+    {
+      "check": "airquality lineage labels",
+      "passed": true
+    },
+    {
+      "check": "airquality lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "airquality TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "airquality TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "airquality development constant",
+      "passed": true
+    },
+    {
+      "check": "airquality published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "airquality published paired inference",
+      "passed": true
+    },
+    {
+      "check": "airquality published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "airquality primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "airquality primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "california_efreq split matches rows",
+      "passed": true
+    },
+    {
+      "check": "california_efreq lineage labels",
+      "passed": true
+    },
+    {
+      "check": "california_efreq lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "california_efreq TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_efreq TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_efreq development constant",
+      "passed": true
+    },
+    {
+      "check": "california_efreq published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "california_efreq published paired inference",
+      "passed": true
+    },
+    {
+      "check": "california_efreq published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "california_efreq primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "california_efreq primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth split matches rows",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth lineage labels",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth development constant",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth published paired inference",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq split matches rows",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq lineage labels",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq development constant",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq published paired inference",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup split matches rows",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup lineage labels",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup development constant",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth split matches rows",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth lineage labels",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth development constant",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth published paired inference",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq split matches rows",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq lineage labels",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq development constant",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq published paired inference",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth split matches rows",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth lineage labels",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth development constant",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth published paired inference",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq split matches rows",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq lineage labels",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq development constant",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq published paired inference",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth split matches rows",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth lineage labels",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth development constant",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth published paired inference",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq split matches rows",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq lineage labels",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq development constant",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq published paired inference",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth split matches rows",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth lineage labels",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth development constant",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth published paired inference",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq split matches rows",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq lineage labels",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq development constant",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq published paired inference",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup split matches rows",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup lineage labels",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup development constant",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth split matches rows",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth lineage labels",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth development constant",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth published paired inference",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "wine_red published paired inference",
+      "passed": true
+    },
+    {
+      "check": "wine_red published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260906 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260907 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260908 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260909 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red__seed20260910 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq published paired inference",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260906 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260907 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260908 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260909 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup__seed20260910 primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_white split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_white lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_white lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_white TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_white published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "wine_white published paired inference",
+      "passed": true
+    },
+    {
+      "check": "wine_white published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_white primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_white primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq published ordinal accounting",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq published paired inference",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup split matches rows",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup lineage labels",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup lock/context identity",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup SoftVoting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup SoftVoting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup TabPFN binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup TabPFN threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup ExtraTrees binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup ExtraTrees threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup RandomForest binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup RandomForest threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup CatBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup CatBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup HistGradientBoosting binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup HistGradientBoosting threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup XGBoost binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup XGBoost threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup SVM_RBF binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup SVM_RBF threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup MLP binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup MLP threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup FTTransformer binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup FTTransformer threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup LogisticRegression binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup LogisticRegression threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup DummyPrior binary metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup DummyPrior threshold predictions",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup TabPFNRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup ExtraTreesRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup CatBoostRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup XGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup HistGBRegressor ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup CumulativeLogit ordinal metrics",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup development constant",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup published AUC and chosen identifiers",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup primary AUC bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup primary accuracy bootstrap CI",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "california_efreq Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "airquality Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "wine_white Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "wine_red Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq Holm adjustment",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "abalone_efreq tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "abalone_ewidth tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "airquality scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "airquality tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "california_efreq scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "california_efreq tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "california_ewidth tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq_nodedup tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "concrete_ewidth tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "energy_efreq tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "energy_ewidth tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_efreq tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "gasturbine_ewidth tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "miami_efreq tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq_nodedup tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "superconduct_ewidth tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_red scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_red tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_red_efreq tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_red_nodedup tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_white scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_white tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_white_efreq tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup scratch category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_white_nodedup tabpfn category bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_red ordinal baseline bootstrap",
+      "passed": true
+    },
+    {
+      "check": "miami_ewidth ordinal baseline bootstrap",
+      "passed": true
+    },
+    {
+      "check": "wine_red calibration bins",
+      "passed": true
+    },
+    {
+      "check": "wine_white calibration bins",
+      "passed": true
+    },
+    {
+      "check": "wine_red protocol AUC difference",
+      "passed": true
+    },
+    {
+      "check": "wine_white protocol AUC difference",
+      "passed": true
+    },
+    {
+      "check": "concrete_efreq protocol AUC difference",
+      "passed": true
+    },
+    {
+      "check": "superconduct_efreq protocol AUC difference",
+      "passed": true
+    }
+  ]
+}

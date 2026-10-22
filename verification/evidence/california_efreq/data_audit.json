@@ -1,0 +1,62 @@
+{
+  "dataset_id": "california_efreq",
+  "spec": {
+    "file": "california_housing.csv",
+    "sep": ",",
+    "target": "MedHouseVal",
+    "subsample": 4898,
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "median"
+  },
+  "source_path": "C:\\Users\\jerry\\Documents\\Paper\\Dataset\\california_housing.csv",
+  "source_sha256": "7192af0bf33e94141194cfd91958c62d66262dc40c07cc2e6fbe0b2d02b0e1b3",
+  "clean_sha256": "294888ce481928cb014dc20185ebac3118406308534d352b360037f21b14631b",
+  "rows_raw": 4898,
+  "rows_clean": 4898,
+  "duplicates_removed": 0,
+  "subsample_applied": 4898,
+  "dedup": true,
+  "conflicting_feature_groups": 0,
+  "target_column_source": "medhouseval",
+  "target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (1.8275)"
+  },
+  "ordinal_levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ordinal_counts_clean": {
+    "0": 817,
+    "1": 817,
+    "2": 815,
+    "3": 816,
+    "4": 816,
+    "5": 817
+  },
+  "binary_counts_clean": {
+    "0": 2449,
+    "1": 2449
+  },
+  "features": [
+    "medinc",
+    "houseage",
+    "averooms",
+    "avebedrms",
+    "population",
+    "aveoccup",
+    "latitude",
+    "longitude"
+  ],
+  "n_features": 8
+}

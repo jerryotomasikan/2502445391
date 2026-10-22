@@ -1,0 +1,178 @@
+file,column,inferred_storage_type,unit_or_encoding,missing_value_rule,example
+alcohol_baseline.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,wine_red
+alcohol_baseline.csv,auc_alcohol,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.7516398330351819
+audited_results.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,abalone_efreq
+audited_results.csv,n,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,4177
+audited_results.csv,n_raw,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,4177
+audited_results.csv,p,integer,predictor count,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,7
+audited_results.csv,n_test,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,836
+audited_results.csv,seed,integer,pseudorandom seed integer,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,20260906
+audited_results.csv,dedup,string,Boolean flag,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,True
+audited_results.csv,duplicates,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0
+audited_results.csv,conflicts,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0
+audited_results.csv,levels,integer,count,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,6
+audited_results.csv,imbalance,float,ratio,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,4.198501872659176
+audited_results.csv,primary,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,SoftVoting
+audited_results.csv,runner,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,TabPFN
+audited_results.csv,auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8814560439560439
+audited_results.csv,acc,float,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.7954545454545454
+audited_results.csv,classic,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,SVM_RBF
+audited_results.csv,classic_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8718177655677656
+audited_results.csv,neural,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,MLP
+audited_results.csv,neural_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8748740842490843
+audited_results.csv,tabpfn_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8821027930402932
+audited_results.csv,ordinal_model,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,TabPFNRegressor
+audited_results.csv,mae,float,ordinal grade units,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.7940418513527399
+audited_results.csv,exact,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.4246411483253589
+audited_results.csv,w1,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.854066985645933
+audited_results.csv,mf1,float,dimensionless,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.3916628642384561
+audited_results.csv,qwk,float,dimensionless weighted agreement,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.7582061168134215
+audited_results.csv,constant,integer,ordinal grade code,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,2
+audited_results.csv,constant_w1,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.569377990430622
+audited_results.csv,dev_mode,integer,ordinal grade code,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,3
+audited_results.csv,mode_w1,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.4964114832535885
+audited_results.csv,mcn_b,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,6
+audited_results.csv,mcn_c,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,6
+audited_results.csv,mcn_p,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,1.0
+audited_results.csv,test_feature_overlap,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0
+audited_results.csv,test_float32_overlap,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0
+binning_split_audit.csv,source,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,abalone
+binning_split_audit.csv,same_binary,string,Boolean flag,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,True
+binning_split_audit.csv,same_test,string,Boolean flag,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,False
+binning_split_audit.csv,shared_test,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,158
+binning_split_audit.csv,n_test,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,836
+calibration_bins.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,wine_red
+calibration_bins.csv,model,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,SoftVoting
+calibration_bins.csv,mean_probability,float,probability,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.11003656913875005
+calibration_bins.csv,observed_fraction,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.11764705882352941
+category_bootstrap.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,abalone_efreq
+category_bootstrap.csv,scratch_delta,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.003056318681318726
+category_bootstrap.csv,scratch_lo,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,-0.006696857829670361
+category_bootstrap.csv,scratch_hi,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.012483402014652
+category_bootstrap.csv,tabpfn_delta,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.010285027472527575
+category_bootstrap.csv,tabpfn_lo,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.002689875228937774
+category_bootstrap.csv,tabpfn_hi,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.01766369047619047
+effort_versus_protocol.csv,source,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,Red wine
+effort_versus_protocol.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,wine_red
+effort_versus_protocol.csv,auc_single_feature,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.7516
+effort_versus_protocol.csv,auc_primary,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8263
+effort_versus_protocol.csv,modelling_gain,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,+0.0747
+effort_versus_protocol.csv,protocol_gain,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,+0.0796
+effort_versus_protocol.csv,protocol_minus_modelling,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,+0.0049
+effort_versus_protocol.csv,ratio,float,dimensionless ratio,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,1.07
+ensemble_ablation.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,abalone_efreq
+ensemble_ablation.csv,retained,string,semicolon-separated model identifiers,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,TabPFN;SVM_RBF;LogisticRegression
+ensemble_ablation.csv,neural_weight,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.16354568738516553
+ensemble_ablation.csv,full_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8814560439560439
+ensemble_ablation.csv,ablated_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8820169413919414
+ensemble_ablation.csv,full_acc,float,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.7954545454545454
+ensemble_ablation.csv,ablated_acc,float,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.7918660287081339
+ensemble_members.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,abalone_efreq
+ensemble_members.csv,primary,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,SoftVoting
+ensemble_members.csv,runner_up,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,TabPFN
+ensemble_members.csv,pair_is_softvoting_and_tabpfn,string,Boolean flag,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,true
+ensemble_members.csv,ensemble_members,string,semicolon-separated identifiers,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,TabPFN;MLP;SVM_RBF;LogisticRegression;FTTransformer
+ensemble_members.csv,ensemble_weights,string,semicolon-separated fractions,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.651333;0.150918;0.087517;0.097604;0.012627
+ensemble_members.csv,tabpfn_weight,float,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.651333
+ordinal_baseline_uncertainty.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,wine_red
+ordinal_baseline_uncertainty.csv,n,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,272
+ordinal_baseline_uncertainty.csv,model,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,HistGBRegressor
+ordinal_baseline_uncertainty.csv,constant,integer,ordinal grade code,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,6
+ordinal_baseline_uncertainty.csv,model_successes,integer,observations,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,263
+ordinal_baseline_uncertainty.csv,constant_successes,integer,observations,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,256
+ordinal_baseline_uncertainty.csv,only_model,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,8
+ordinal_baseline_uncertainty.csv,only_constant,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,1
+ordinal_baseline_uncertainty.csv,difference,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.025735294117647058
+ordinal_baseline_uncertainty.csv,ci_lo,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.007352941176470588
+ordinal_baseline_uncertainty.csv,ci_hi,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.04779411764705882
+ordinal_baseline_uncertainty.csv,bootstrap_replicates,integer,count,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,3000
+ordinal_baseline_uncertainty.csv,seed,integer,pseudorandom seed integer,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,314159
+ordinal_baseline_uncertainty.csv,stratification,string,categorical resampling label,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,binary label
+ordinal_baseline_uncertainty.csv,selection,string,categorical selection description,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,fixed from development
+ordinal_contrasts.csv,source,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,abalone
+ordinal_contrasts.csv,ef_levels,integer,count,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,6
+ordinal_contrasts.csv,ew_levels,integer,count,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,5
+ordinal_contrasts.csv,ef_model,float,percent,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,85.4066985645933
+ordinal_contrasts.csv,ef_constant,float,percent,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,56.9377990430622
+ordinal_contrasts.csv,ef_gain_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,28.4688995215311
+ordinal_contrasts.csv,ew_model,float,percent,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,96.65071770334927
+ordinal_contrasts.csv,ew_constant,float,percent,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,94.01913875598086
+ordinal_contrasts.csv,ew_gain_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,2.631578947368418
+ordinal_contrasts.csv,change_gain_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,-25.837320574162682
+ordinal_error_accounting.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,wine_red
+ordinal_error_accounting.csv,n,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,272
+ordinal_error_accounting.csv,model,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,HistGBRegressor
+ordinal_error_accounting.csv,constant,integer,ordinal grade code,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,6
+ordinal_error_accounting.csv,model_w1,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.9669117647058824
+ordinal_error_accounting.csv,constant_w1,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.9411764705882353
+ordinal_error_accounting.csv,gain_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,2.573529411764708
+ordinal_error_accounting.csv,corrected,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,8
+ordinal_error_accounting.csv,introduced,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,1
+ordinal_error_accounting.csv,both_correct,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,255
+ordinal_error_accounting.csv,both_wrong,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,8
+ordinal_error_accounting.csv,baseline_errors,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,16
+ordinal_error_accounting.csv,model_errors,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,9
+ordinal_error_accounting.csv,net_error_reduction_pct,float,percent of baseline errors,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,43.75
+ordinal_error_accounting.csv,prediction_sha256,string,SHA-256 hex digest,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,7cb236fa3c18a46fae4079cf29c7a9fec63472d34e86fab59f5db5514bc71c09
+ordinal_target_comparison.csv,source,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,concrete
+ordinal_target_comparison.csv,ew_minus_ef_model_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,2.500000000000002
+ordinal_target_comparison.csv,ew_minus_ef_constant_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,23.0
+ordinal_target_comparison.csv,ew_minus_ef_gain_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,-20.499999999999993
+primary_runner_inference.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,wine_red
+primary_runner_inference.csv,n,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,272
+primary_runner_inference.csv,primary,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,SoftVoting
+primary_runner_inference.csv,runner,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,TabPFN
+primary_runner_inference.csv,accuracy_delta_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.36764705882353
+primary_runner_inference.csv,accuracy_lo_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,-1.11213235294118
+primary_runner_inference.csv,accuracy_hi_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,2.2058823529411598
+primary_runner_inference.csv,auc_delta,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.0020599555483276
+primary_runner_inference.csv,auc_lo,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,-0.0026020491136771
+primary_runner_inference.csv,auc_hi,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.0070472163495418
+primary_runner_inference.csv,b,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,3
+primary_runner_inference.csv,c,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,2
+primary_runner_inference.csv,discordant,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,5
+primary_runner_inference.csv,mcnemar_p,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,1.0
+primary_runner_inference.csv,bootstrap_sha256,string,SHA-256 hex digest,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,039de883c72f108a9b9bb55b1d411b7744628eda88a22a6c584c9154450c0963
+primary_runner_inference.csv,holm_p,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,1.0
+prospective_sensitivity.csv,n,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,272
+prospective_sensitivity.csv,discordance,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.05
+prospective_sensitivity.csv,alpha,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.05
+prospective_sensitivity.csv,target_power,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8
+prospective_sensitivity.csv,min_difference,float,fraction,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.03851862111354353
+prospective_sensitivity.csv,power,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8000000000001124
+protocol_comparison.csv,source,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,wine_red
+protocol_comparison.csv,n_dedup,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,272
+protocol_comparison.csv,n_retained,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,320
+protocol_comparison.csv,overlap,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,76
+protocol_comparison.csv,overlap_pct,float,percent,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,23.75
+protocol_comparison.csv,auc_dedup,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8263132216620589
+protocol_comparison.csv,auc_retained,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.905922524431885
+protocol_comparison.csv,delta_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.07960930276982614
+protocol_comparison.csv,exact_dedup,float,percent,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,56.61764705882353
+protocol_comparison.csv,exact_retained,float,percent,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,71.25
+protocol_comparison.csv,delta_exact_pp,float,percentage points,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,14.632352941176475
+rejection_boundary.csv,task,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,Abalone EF
+rejection_boundary.csv,dataset,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,abalone_efreq
+rejection_boundary.csv,discordant,integer,observations or groups as named,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,12
+rejection_boundary.csv,observed_margin,integer,count,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0
+rejection_boundary.csv,required_margin,integer,count,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,8
+rejection_boundary.csv,attainable,string,yes/no flag,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,yes
+rejection_boundary.csv,reached,string,yes/no flag,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,no
+rejection_boundary.csv,exact_p,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,1.0000
+rejection_boundary.csv,holm_p,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,1.0000
+seed_category_differences.csv,seed,integer,pseudorandom seed integer,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,20260906
+seed_category_differences.csv,classic,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,ExtraTrees
+seed_category_differences.csv,classic_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.821814
+seed_category_differences.csv,from_scratch,string,"categorical identifier, flag, or dimensionless value; see field name and generating code",Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,FTTransformer
+seed_category_differences.csv,from_scratch_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.815851
+seed_category_differences.csv,tabpfn_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.824253
+seed_category_differences.csv,scratch_minus_classical,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,-0.005963
+seed_category_differences.csv,tabpfn_minus_classical,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,+0.002439
+seed_comparison.csv,seed,integer,pseudorandom seed integer,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,20260906
+seed_comparison.csv,dedup,float,Boolean flag,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.8263132216620589
+seed_comparison.csv,retained,float,semicolon-separated model identifiers,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.905922524431885
+seed_comparison.csv,delta_auc,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.07960930276982614
+seed_resolution.csv,seed,integer,pseudorandom seed integer,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,20260906
+seed_resolution.csv,auc_dedup,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.826313
+seed_resolution.csv,auc_retained,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.905923
+seed_resolution.csv,protocol_delta,float,dimensionless probability or AUC scale,Empty fields or NaN mean not recorded or not applicable; do not replace with zero.,0.079609

@@ -1,3 +1,23 @@
+# Prediction-level verification data for Paper 694
+
+Version 1.1.0 adds the compact verification release requested for the Data in Brief revision. It includes 33 saved run directories and checksum-verified source-row lineage, target boundaries, duplicate groups, splits/folds, selected model records, baseline predictions, binary probabilities and ordinal scores. No fitted model weights or upstream raw datasets are redistributed.
+
+See [verification/README.md](verification/README.md) for every file, schema, scope, licence and reproduction instruction. Data/documentation: CC BY 4.0; code: MIT; upstream dataset terms remain separate. Exact original TabPFN checkpoints were not recorded or recovered; saved predictions allow independent verification without them.
+
+Validation: **2,601 checks passed, zero failed** (594 lineage/split/fold; 1,332 prediction/metric/bootstrap; 675 published-table checks). MAE comparisons account for original float32-to-CSV precision; no experimental predictions or reported numbers were changed.
+
+```bash
+python -m pip install -r verification/requirements-verification.txt
+python verification/scripts/verify_predictions.py
+python verification/scripts/verify_published_tables.py
+```
+
+The versioned release provides the data package. The older Zenodo DOI 10.5281/zenodo.22679517 refers to the original software-only/aggregate snapshot and must not be confused with the new prediction-level package.
+
+## Historical repository description for version 1.0
+
+The following describes the earlier release. Its exclusions and historical validation commands do not apply to the new portable verification scripts above.
+
 # Quantifying Predictive Gains in Tabular Learning
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22679517.svg)](https://doi.org/10.5281/zenodo.22679517)

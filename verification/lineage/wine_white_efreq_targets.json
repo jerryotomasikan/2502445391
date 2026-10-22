@@ -1,0 +1,50 @@
+{
+  "source_filename": "winequality-white.csv",
+  "source_row_index": "0-based data-row index excluding CSV header, before subsampling",
+  "original_clean_sha256": "7edbbeb6bb67f1b5b5d1090a7908d2f051d79a14c4453aaf9ad473d31b716a09",
+  "reconstructed_clean_sha256": "7edbbeb6bb67f1b5b5d1090a7908d2f051d79a14c4453aaf9ad473d31b716a09",
+  "lineage_status": "Reconstructed from hash-matched source and original target functions; clean checksum and all saved holdout labels match.",
+  "seed": 20260906,
+  "spec": {
+    "file": "winequality-white.csv",
+    "sep": ";",
+    "target": "quality",
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "ge:6"
+  },
+  "constant_selected_on_development": 1,
+  "original_target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 4,
+    "binary_rule": "target >= 6"
+  },
+  "bin_edges": [
+    3.0,
+    5.0,
+    6.0,
+    7.0,
+    9.0
+  ],
+  "interval_convention": "right-closed; first interval includes minimum",
+  "raw_bin_to_final_grade": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ]
+  },
+  "binary_threshold": 6.0,
+  "binary_operator": ">="
+}

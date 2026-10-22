@@ -1,0 +1,13 @@
+{
+  "protocol": "tabular-locked-holdout-v3-multidataset",
+  "clean_sha256": "15fb0129cdb5dd7926547096a9cc3eee95033796462b97c1034486446763597b",
+  "seed": 20260909,
+  "test_size": 0.2,
+  "cv_splits": 5,
+  "settings_hash": "386c66d7b44c2d756c54a10f20c8129e175f34b7da3742cb91eed391c9e7f738",
+  "indices_sha256": "38e06bea231137018145245c70efddbdcc6a585f91419ee47a1622386c78c4dd",
+  "stratified_on": "ordinal_levels_3_to_8",
+  "development_rows": 1279,
+  "test_rows": 320,
+  "rule": "Test may be accessed only in Cell 10 after selection locks are written."
+}

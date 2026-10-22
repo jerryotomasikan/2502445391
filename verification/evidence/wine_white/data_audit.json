@@ -1,0 +1,72 @@
+{
+  "dataset_id": "wine_white",
+  "spec": {
+    "file": "winequality-white.csv",
+    "sep": ";",
+    "target": "quality",
+    "ordinal": {
+      "kind": "native"
+    },
+    "binary": "ge:6"
+  },
+  "source_path": "C:\\Users\\jerry\\Documents\\Paper\\Dataset\\winequality-white.csv",
+  "source_sha256": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+  "clean_sha256": "30e800dc8568035d5dad28b46bc32a6883c6323f9f931557e48c742f6a1dc215",
+  "rows_raw": 4898,
+  "rows_clean": 3961,
+  "duplicates_removed": 937,
+  "subsample_applied": 0,
+  "dedup": true,
+  "conflicting_feature_groups": 0,
+  "target_column_source": "quality",
+  "target_meta": {
+    "ordinal_kind": "native",
+    "native_levels": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "merged_levels": {
+      "9": 8
+    },
+    "binary_rule": "target >= 6"
+  },
+  "ordinal_levels": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "ordinal_counts_clean": {
+    "3": 20,
+    "4": 153,
+    "5": 1175,
+    "6": 1788,
+    "7": 689,
+    "8": 136
+  },
+  "binary_counts_clean": {
+    "0": 1348,
+    "1": 2613
+  },
+  "features": [
+    "fixed_acidity",
+    "volatile_acidity",
+    "citric_acid",
+    "residual_sugar",
+    "chlorides",
+    "free_sulfur_dioxide",
+    "total_sulfur_dioxide",
+    "density",
+    "ph",
+    "sulphates",
+    "alcohol"
+  ],
+  "n_features": 11
+}

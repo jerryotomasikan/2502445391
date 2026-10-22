@@ -1,0 +1,66 @@
+{
+  "dataset_id": "gasturbine_efreq",
+  "spec": {
+    "file": "gas_turbine_emission.csv",
+    "sep": ",",
+    "target": "NOX",
+    "drop": [
+      "CO"
+    ],
+    "subsample": 4898,
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "median"
+  },
+  "source_path": "C:\\Users\\jerry\\Documents\\Paper\\Dataset\\gas_turbine_emission.csv",
+  "source_sha256": "7dc43a6bc3e6c63aebac4cc91fea9a7152325fefc2b8ffaab5840424a12762ec",
+  "clean_sha256": "a160429a7214607c6f43535ca103406aaf2dc617b26e166788f00faf504fd09d",
+  "rows_raw": 4898,
+  "rows_clean": 4898,
+  "duplicates_removed": 0,
+  "subsample_applied": 4898,
+  "dedup": true,
+  "conflicting_feature_groups": 0,
+  "target_column_source": "nox",
+  "target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (63.945)"
+  },
+  "ordinal_levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ordinal_counts_clean": {
+    "0": 817,
+    "1": 816,
+    "2": 816,
+    "3": 817,
+    "4": 815,
+    "5": 817
+  },
+  "binary_counts_clean": {
+    "0": 2449,
+    "1": 2449
+  },
+  "features": [
+    "at",
+    "ap",
+    "ah",
+    "afdp",
+    "gtep",
+    "tit",
+    "tat",
+    "tey",
+    "cdp"
+  ],
+  "n_features": 9
+}

@@ -1,0 +1,35 @@
+{
+  "source_filename": "winequality-red.csv",
+  "source_row_index": "0-based data-row index excluding CSV header, before subsampling",
+  "original_clean_sha256": "15fb0129cdb5dd7926547096a9cc3eee95033796462b97c1034486446763597b",
+  "reconstructed_clean_sha256": "15fb0129cdb5dd7926547096a9cc3eee95033796462b97c1034486446763597b",
+  "lineage_status": "Reconstructed from hash-matched source and original target functions; clean checksum and all saved holdout labels match.",
+  "seed": 20260908,
+  "spec": {
+    "file": "winequality-red.csv",
+    "sep": ";",
+    "target": "quality",
+    "ordinal": {
+      "kind": "native"
+    },
+    "binary": "ge:6",
+    "dedup": false
+  },
+  "constant_selected_on_development": 6,
+  "original_target_meta": {
+    "ordinal_kind": "native",
+    "native_levels": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "merged_levels": {},
+    "binary_rule": "target >= 6"
+  },
+  "bin_edges": null,
+  "binary_threshold": 6.0,
+  "binary_operator": ">="
+}

@@ -1,0 +1,114 @@
+{
+  "primary_ordinal_model": "TabPFNRegressor",
+  "selection_metric": "MAE development OOF (minimum), QWK tie-break",
+  "best_per_family": {
+    "TabPFNRegressor": {
+      "family": "TabPFNRegressor",
+      "config": {
+        "n_estimators": 8
+      },
+      "mae": 0.04994141321205825,
+      "qwk": 0.9810844892812106,
+      "exact_accuracy": 0.9625,
+      "within_one_accuracy": 1.0,
+      "macro_f1": 0.9423651576639462,
+      "fit_seconds": 13.598297999999886,
+      "signature": "b037bfb6f7403971",
+      "status": "ok"
+    },
+    "CumulativeLogit": {
+      "family": "CumulativeLogit",
+      "config": {
+        "C": 100.0,
+        "class_weight": null,
+        "scaler": "standard"
+      },
+      "mae": 0.08433685543631521,
+      "qwk": 0.970807531909516,
+      "exact_accuracy": 0.94225,
+      "within_one_accuracy": 1.0,
+      "macro_f1": 0.9157046276803267,
+      "fit_seconds": 0.08388520000016797,
+      "signature": "081e7c17e9ebdbc6",
+      "status": "ok"
+    },
+    "CatBoostRegressor": {
+      "family": "CatBoostRegressor",
+      "config": {
+        "depth": 8,
+        "iterations": 400,
+        "l2_leaf_reg": 5.0,
+        "learning_rate": 0.04,
+        "loss_function": "MAE",
+        "random_strength": 0.0
+      },
+      "mae": 0.09226034804711739,
+      "qwk": 0.9689755603393694,
+      "exact_accuracy": 0.94025,
+      "within_one_accuracy": 0.9995,
+      "macro_f1": 0.9125697574417947,
+      "fit_seconds": 17.992092800000137,
+      "signature": "795da2ae7786098e",
+      "status": "ok"
+    },
+    "ExtraTreesRegressor": {
+      "family": "ExtraTreesRegressor",
+      "config": {
+        "n_estimators": 800,
+        "max_depth": null,
+        "max_features": 1.0,
+        "min_samples_leaf": 1
+      },
+      "mae": 0.09412468750000003,
+      "qwk": 0.9764198782961461,
+      "exact_accuracy": 0.9535,
+      "within_one_accuracy": 1.0,
+      "macro_f1": 0.9295182619508002,
+      "fit_seconds": 5.7235459000003175,
+      "signature": "c4a866bb33bb267a",
+      "status": "ok"
+    },
+    "HistGBRegressor": {
+      "family": "HistGBRegressor",
+      "config": {
+        "l2_regularization": 1.0,
+        "learning_rate": 0.1,
+        "loss": "absolute_error",
+        "max_iter": 600,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 40
+      },
+      "mae": 0.09954609208705806,
+      "qwk": 0.9502036526080673,
+      "exact_accuracy": 0.90675,
+      "within_one_accuracy": 0.9995,
+      "macro_f1": 0.8551361768389993,
+      "fit_seconds": 7.14560849999998,
+      "signature": "b715dd4e6f021305",
+      "status": "ok"
+    },
+    "XGBRegressor": {
+      "family": "XGBRegressor",
+      "config": {
+        "colsample_bytree": 0.85,
+        "learning_rate": 0.04,
+        "max_depth": 4,
+        "min_child_weight": 5,
+        "n_estimators": 900,
+        "reg_alpha": 0.01,
+        "reg_lambda": 1.0,
+        "subsample": 0.85
+      },
+      "mae": 0.10762347755377413,
+      "qwk": 0.9752212389380531,
+      "exact_accuracy": 0.951,
+      "within_one_accuracy": 1.0,
+      "macro_f1": 0.9257965368472726,
+      "fit_seconds": 1.872579400000177,
+      "signature": "a5023ec7571f82ff",
+      "status": "ok"
+    }
+  },
+  "evaluation_context_hash": "77590b701deec8baafd123ff7eea4c6561d95d94955141e41d52a9b2b01d3783",
+  "test_accessed": true
+}

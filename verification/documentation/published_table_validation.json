@@ -1,0 +1,6 @@
+{
+  "scope": "Original Tables I-IV and S1-S5 checked against released observations. Comparisons use full-precision AUCs and exact p-values before comparing printed differences or Holm values.",
+  "passed": 675,
+  "failed": 0,
+  "failures": []
+}

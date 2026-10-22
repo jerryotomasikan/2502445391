@@ -1,0 +1,2 @@
+Computational prediction outputs, reconstructed lineage and release documentation: Creative Commons Attribution 4.0 International. Authors: Heriyanto and Suharjito. https://creativecommons.org/licenses/by/4.0/legalcode
+Underlying source datasets are not redistributed or relicensed. Verification code: MIT, see LICENSE-CODE.txt.

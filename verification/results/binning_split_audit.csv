@@ -1,0 +1,8 @@
+source,same_binary,same_test,shared_test,n_test
+abalone,True,False,158,836
+california,True,False,219,980
+concrete,True,False,47,200
+energy,True,False,43,154
+gasturbine,True,False,204,980
+miami,True,False,200,980
+superconduct,True,False,160,834

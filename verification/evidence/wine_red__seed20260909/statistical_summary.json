@@ -1,0 +1,12 @@
+{
+  "primary": "SoftVoting",
+  "runner_up": "ExtraTrees",
+  "mcnemar_b": 8,
+  "mcnemar_c": 16,
+  "mcnemar_exact_p": 0.15158963203430176,
+  "primary_accuracy_wilson95": [
+    0.6991742951828959,
+    0.8011130821750685
+  ],
+  "bootstrap_repeats": 3000
+}

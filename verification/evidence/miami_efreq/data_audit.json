@@ -1,0 +1,69 @@
+{
+  "dataset_id": "miami_efreq",
+  "spec": {
+    "file": "miami_housing_2025.csv",
+    "sep": ",",
+    "target": "SALE_PRC",
+    "subsample": 4898,
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "median"
+  },
+  "source_path": "C:\\Users\\jerry\\Documents\\Paper\\Dataset\\miami_housing_2025.csv",
+  "source_sha256": "e743c4f6741bf9e426e60487e4f2ca66580e65118617fedab276b79c5e1a87ef",
+  "clean_sha256": "bc4dd0a598ccfb3de2c16fbb4679fd1525f62e52c39a4eee0758d58125e230c9",
+  "rows_raw": 4898,
+  "rows_clean": 4898,
+  "duplicates_removed": 0,
+  "subsample_applied": 4898,
+  "dedup": true,
+  "conflicting_feature_groups": 0,
+  "target_column_source": "sale_prc",
+  "target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (310000)"
+  },
+  "ordinal_levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ordinal_counts_clean": {
+    "0": 843,
+    "1": 835,
+    "2": 795,
+    "3": 807,
+    "4": 807,
+    "5": 811
+  },
+  "binary_counts_clean": {
+    "0": 2473,
+    "1": 2425
+  },
+  "features": [
+    "latitude",
+    "longitude",
+    "lnd_sqfoot",
+    "tot_lvg_area",
+    "spec_feat_val",
+    "rail_dist",
+    "ocean_dist",
+    "water_dist",
+    "cntr_dist",
+    "subcntr_di",
+    "hwy_dist",
+    "age",
+    "avno60plus",
+    "month_sold",
+    "structure_quality"
+  ],
+  "n_features": 15
+}

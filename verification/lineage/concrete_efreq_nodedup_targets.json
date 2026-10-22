@@ -1,0 +1,59 @@
+{
+  "source_filename": "concrete_compressive_strength.csv",
+  "source_row_index": "0-based data-row index excluding CSV header, before subsampling",
+  "original_clean_sha256": "5013c4018cfebe635f490d2d562de0b59ba6a52110f03971049eab70cccb42fb",
+  "reconstructed_clean_sha256": "5013c4018cfebe635f490d2d562de0b59ba6a52110f03971049eab70cccb42fb",
+  "lineage_status": "Reconstructed from hash-matched source and original target functions; clean checksum and all saved holdout labels match.",
+  "seed": 20260906,
+  "spec": {
+    "file": "concrete_compressive_strength.csv",
+    "sep": ",",
+    "target": "compressive_strength",
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "median",
+    "dedup": false
+  },
+  "constant_selected_on_development": 1,
+  "original_target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (34.4428)"
+  },
+  "bin_edges": [
+    2.331807832,
+    18.080129147999997,
+    26.96540636,
+    34.44277358,
+    41.36856,
+    52.823859002,
+    82.5992248
+  ],
+  "interval_convention": "right-closed; first interval includes minimum",
+  "raw_bin_to_final_grade": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ],
+    "4": [
+      4
+    ],
+    "5": [
+      5
+    ]
+  },
+  "binary_threshold": 34.44277358,
+  "binary_operator": ">"
+}

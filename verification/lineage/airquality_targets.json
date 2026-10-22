@@ -1,0 +1,32 @@
+{
+  "source_filename": "air_quality_2025.csv",
+  "source_row_index": "0-based data-row index excluding CSV header, before subsampling",
+  "original_clean_sha256": "d7e3d4528ee246935060bd52940449026f6cd3b300f89a93c6df5551ab367ced",
+  "reconstructed_clean_sha256": "d7e3d4528ee246935060bd52940449026f6cd3b300f89a93c6df5551ab367ced",
+  "lineage_status": "Reconstructed from hash-matched source and original target functions; clean checksum and all saved holdout labels match.",
+  "seed": 20260906,
+  "spec": {
+    "file": "air_quality_2025.csv",
+    "sep": ",",
+    "target": "air_quality_level",
+    "ordinal": {
+      "kind": "native"
+    },
+    "binary": "ge:2"
+  },
+  "constant_selected_on_development": 2,
+  "original_target_meta": {
+    "ordinal_kind": "native",
+    "native_levels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "merged_levels": {},
+    "binary_rule": "target >= 2"
+  },
+  "bin_edges": null,
+  "binary_threshold": 2.0,
+  "binary_operator": ">="
+}

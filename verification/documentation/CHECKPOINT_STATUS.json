@@ -1,0 +1,9 @@
+{
+  "model": "TabPFN",
+  "recorded_package_version": "8.5.0",
+  "checkpoint_resolution": "automatic",
+  "original_checkpoint_identifier": null,
+  "original_weight_sha256": null,
+  "original_weight_files_found_in_supplied_backup": false,
+  "limitation": "Exact training reproduction cannot be guaranteed. Saved predictions and probabilities are released for independent metric and bootstrap verification."
+}

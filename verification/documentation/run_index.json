@@ -1,0 +1,266 @@
+[
+  {
+    "run": "abalone_efreq",
+    "dataset_id": "abalone_efreq",
+    "seed": 20260906,
+    "rows": 4177,
+    "test_rows": 836,
+    "constant": 2
+  },
+  {
+    "run": "abalone_ewidth",
+    "dataset_id": "abalone_ewidth",
+    "seed": 20260906,
+    "rows": 4177,
+    "test_rows": 836,
+    "constant": 2
+  },
+  {
+    "run": "airquality",
+    "dataset_id": "airquality",
+    "seed": 20260906,
+    "rows": 5000,
+    "test_rows": 1000,
+    "constant": 2
+  },
+  {
+    "run": "california_efreq",
+    "dataset_id": "california_efreq",
+    "seed": 20260906,
+    "rows": 4898,
+    "test_rows": 980,
+    "constant": 1
+  },
+  {
+    "run": "california_ewidth",
+    "dataset_id": "california_ewidth",
+    "seed": 20260906,
+    "rows": 4898,
+    "test_rows": 980,
+    "constant": 1
+  },
+  {
+    "run": "concrete_efreq",
+    "dataset_id": "concrete_efreq",
+    "seed": 20260906,
+    "rows": 996,
+    "test_rows": 200,
+    "constant": 1
+  },
+  {
+    "run": "concrete_efreq_nodedup",
+    "dataset_id": "concrete_efreq_nodedup",
+    "seed": 20260906,
+    "rows": 1030,
+    "test_rows": 206,
+    "constant": 1
+  },
+  {
+    "run": "concrete_ewidth",
+    "dataset_id": "concrete_ewidth",
+    "seed": 20260906,
+    "rows": 996,
+    "test_rows": 200,
+    "constant": 2
+  },
+  {
+    "run": "energy_efreq",
+    "dataset_id": "energy_efreq",
+    "seed": 20260906,
+    "rows": 768,
+    "test_rows": 154,
+    "constant": 1
+  },
+  {
+    "run": "energy_ewidth",
+    "dataset_id": "energy_ewidth",
+    "seed": 20260906,
+    "rows": 768,
+    "test_rows": 154,
+    "constant": 2
+  },
+  {
+    "run": "gasturbine_efreq",
+    "dataset_id": "gasturbine_efreq",
+    "seed": 20260906,
+    "rows": 4898,
+    "test_rows": 980,
+    "constant": 1
+  },
+  {
+    "run": "gasturbine_ewidth",
+    "dataset_id": "gasturbine_ewidth",
+    "seed": 20260906,
+    "rows": 4898,
+    "test_rows": 980,
+    "constant": 1
+  },
+  {
+    "run": "miami_efreq",
+    "dataset_id": "miami_efreq",
+    "seed": 20260906,
+    "rows": 4898,
+    "test_rows": 980,
+    "constant": 1
+  },
+  {
+    "run": "miami_ewidth",
+    "dataset_id": "miami_ewidth",
+    "seed": 20260906,
+    "rows": 4898,
+    "test_rows": 980,
+    "constant": 1
+  },
+  {
+    "run": "superconduct_efreq",
+    "dataset_id": "superconduct_efreq",
+    "seed": 20260906,
+    "rows": 4169,
+    "test_rows": 834,
+    "constant": 1
+  },
+  {
+    "run": "superconduct_efreq_nodedup",
+    "dataset_id": "superconduct_efreq_nodedup",
+    "seed": 20260906,
+    "rows": 4898,
+    "test_rows": 980,
+    "constant": 2
+  },
+  {
+    "run": "superconduct_ewidth",
+    "dataset_id": "superconduct_ewidth",
+    "seed": 20260906,
+    "rows": 4169,
+    "test_rows": 834,
+    "constant": 1
+  },
+  {
+    "run": "wine_red",
+    "dataset_id": "wine_red",
+    "seed": 20260906,
+    "rows": 1359,
+    "test_rows": 272,
+    "constant": 6
+  },
+  {
+    "run": "wine_red__seed20260906",
+    "dataset_id": "wine_red",
+    "seed": 20260906,
+    "rows": 1359,
+    "test_rows": 272,
+    "constant": 6
+  },
+  {
+    "run": "wine_red__seed20260907",
+    "dataset_id": "wine_red",
+    "seed": 20260907,
+    "rows": 1359,
+    "test_rows": 272,
+    "constant": 6
+  },
+  {
+    "run": "wine_red__seed20260908",
+    "dataset_id": "wine_red",
+    "seed": 20260908,
+    "rows": 1359,
+    "test_rows": 272,
+    "constant": 6
+  },
+  {
+    "run": "wine_red__seed20260909",
+    "dataset_id": "wine_red",
+    "seed": 20260909,
+    "rows": 1359,
+    "test_rows": 272,
+    "constant": 6
+  },
+  {
+    "run": "wine_red__seed20260910",
+    "dataset_id": "wine_red",
+    "seed": 20260910,
+    "rows": 1359,
+    "test_rows": 272,
+    "constant": 6
+  },
+  {
+    "run": "wine_red_efreq",
+    "dataset_id": "wine_red_efreq",
+    "seed": 20260906,
+    "rows": 1359,
+    "test_rows": 272,
+    "constant": 1
+  },
+  {
+    "run": "wine_red_nodedup",
+    "dataset_id": "wine_red_nodedup",
+    "seed": 20260906,
+    "rows": 1599,
+    "test_rows": 320,
+    "constant": 6
+  },
+  {
+    "run": "wine_red_nodedup__seed20260906",
+    "dataset_id": "wine_red_nodedup",
+    "seed": 20260906,
+    "rows": 1599,
+    "test_rows": 320,
+    "constant": 6
+  },
+  {
+    "run": "wine_red_nodedup__seed20260907",
+    "dataset_id": "wine_red_nodedup",
+    "seed": 20260907,
+    "rows": 1599,
+    "test_rows": 320,
+    "constant": 6
+  },
+  {
+    "run": "wine_red_nodedup__seed20260908",
+    "dataset_id": "wine_red_nodedup",
+    "seed": 20260908,
+    "rows": 1599,
+    "test_rows": 320,
+    "constant": 6
+  },
+  {
+    "run": "wine_red_nodedup__seed20260909",
+    "dataset_id": "wine_red_nodedup",
+    "seed": 20260909,
+    "rows": 1599,
+    "test_rows": 320,
+    "constant": 6
+  },
+  {
+    "run": "wine_red_nodedup__seed20260910",
+    "dataset_id": "wine_red_nodedup",
+    "seed": 20260910,
+    "rows": 1599,
+    "test_rows": 320,
+    "constant": 6
+  },
+  {
+    "run": "wine_white",
+    "dataset_id": "wine_white",
+    "seed": 20260906,
+    "rows": 3961,
+    "test_rows": 793,
+    "constant": 6
+  },
+  {
+    "run": "wine_white_efreq",
+    "dataset_id": "wine_white_efreq",
+    "seed": 20260906,
+    "rows": 3961,
+    "test_rows": 793,
+    "constant": 1
+  },
+  {
+    "run": "wine_white_nodedup",
+    "dataset_id": "wine_white_nodedup",
+    "seed": 20260906,
+    "rows": 4898,
+    "test_rows": 980,
+    "constant": 6
+  }
+]

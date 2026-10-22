@@ -1,0 +1,60 @@
+{
+  "evaluation_context_hash": "7e2b5c67496bbe13b4fc8d24e49d22de8342a5bf573f556f9111132528efdebc",
+  "settings": {
+    "dataset_id": "miami_ewidth",
+    "dataset_spec": {
+      "file": "miami_housing_2025.csv",
+      "sep": ",",
+      "target": "SALE_PRC",
+      "subsample": 4898,
+      "ordinal": {
+        "kind": "bin",
+        "bins": 6,
+        "strategy": "uniform"
+      },
+      "binary": "median"
+    },
+    "n_features": 15,
+    "mode": "research",
+    "seed": 20260906,
+    "test_size": 0.2,
+    "cv_splits": 5,
+    "inner_stop_size": 0.18,
+    "run_neural": true,
+    "run_ordinal": true,
+    "run_optional_boosters": true,
+    "run_interpretability": true,
+    "permutation_repeats": 20,
+    "torch_available": true,
+    "catboost_available": true,
+    "xgboost_available": true,
+    "tabpfn_available": true,
+    "classic_limits": {
+      "LogisticRegression": 18,
+      "SVM_RBF": 28,
+      "RandomForest": 18,
+      "ExtraTrees": 22,
+      "HistGradientBoosting": 28,
+      "XGBoost": 22,
+      "CatBoost": 22,
+      "TabPFN": 3
+    },
+    "neural_limit_per_family": 8,
+    "neural_max_epochs": 320,
+    "neural_patience": 35,
+    "primary_selection_metric": "roc_auc"
+  },
+  "package_versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "joblib": "1.6.0",
+    "torch": "2.6.0+cu124",
+    "catboost": "1.2.10",
+    "xgboost": "3.4.1",
+    "tabpfn": "8.5.0"
+  }
+}

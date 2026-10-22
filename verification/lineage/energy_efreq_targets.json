@@ -1,0 +1,61 @@
+{
+  "source_filename": "energy_efficiency.csv",
+  "source_row_index": "0-based data-row index excluding CSV header, before subsampling",
+  "original_clean_sha256": "485ad97e1fc517c4833b55993eec5fa0da99221b62f1f202745849f03c3f8e92",
+  "reconstructed_clean_sha256": "485ad97e1fc517c4833b55993eec5fa0da99221b62f1f202745849f03c3f8e92",
+  "lineage_status": "Reconstructed from hash-matched source and original target functions; clean checksum and all saved holdout labels match.",
+  "seed": 20260906,
+  "spec": {
+    "file": "energy_efficiency.csv",
+    "sep": ",",
+    "target": "Y1",
+    "drop": [
+      "Y2"
+    ],
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "median"
+  },
+  "constant_selected_on_development": 1,
+  "original_target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (18.95)"
+  },
+  "bin_edges": [
+    6.01,
+    12.3,
+    14.54,
+    18.95,
+    28.633333333333333,
+    33.135,
+    43.1
+  ],
+  "interval_convention": "right-closed; first interval includes minimum",
+  "raw_bin_to_final_grade": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ],
+    "4": [
+      4
+    ],
+    "5": [
+      5
+    ]
+  },
+  "binary_threshold": 18.95,
+  "binary_operator": ">"
+}

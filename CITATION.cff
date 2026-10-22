@@ -1,35 +1,19 @@
 cff-version: 1.2.0
-message: If you use this software or the recorded results, please cite the paper.
-title: >-
-  Analysis code for "Quantifying Predictive Gains in Tabular Learning
-  through Ordinal Baselines and Protocol Analysis"
-type: software
+message: Please cite this versioned prediction-level verification release when using the data.
+title: Prediction-level verification data for ordinal baselines and duplicate handling in tabular learning
+type: dataset
 authors:
   - family-names: Heriyanto
     orcid: https://orcid.org/0009-0002-5827-0989
-    affiliation: >-
-      Department of Industrial Engineering, BINUS Graduate Program,
-      Bina Nusantara University, Jakarta, Indonesia
   - family-names: Suharjito
     orcid: https://orcid.org/0000-0002-0853-8812
-    affiliation: >-
-      Department of Industrial Engineering, BINUS Graduate Program,
-      Bina Nusantara University, Jakarta, Indonesia
-license: MIT
-doi: 10.5281/zenodo.22679517
+version: 1.1.0
+date-released: 2026-10-22
+license: CC-BY-4.0
+url: https://github.com/jerryotomasikan/2502445391/releases/tag/v1.1.0
 repository-code: https://github.com/jerryotomasikan/2502445391
-version: 1.0.0
-date-released: 2026-09-09
 keywords:
   - tabular learning
-  - evaluation protocols
   - ordinal prediction
-  - duplicate records
+  - saved predictions
   - reproducibility
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.22679517
-    description: Archived version used in the paper
-  - type: doi
-    value: 10.5281/zenodo.22679516
-    description: Concept DOI resolving to the latest version

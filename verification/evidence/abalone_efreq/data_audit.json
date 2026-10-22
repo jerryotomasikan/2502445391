@@ -1,0 +1,63 @@
+{
+  "dataset_id": "abalone_efreq",
+  "spec": {
+    "file": "abalone.csv",
+    "sep": ",",
+    "target": "Rings",
+    "drop": [
+      "Sex"
+    ],
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "median"
+  },
+  "source_path": "C:\\Users\\jerry\\Documents\\Paper\\Dataset\\abalone.csv",
+  "source_sha256": "de276460aa7d3660dcf06ec31840c19c1af83a37b1676fa2f4728a962a86572d",
+  "clean_sha256": "d59fc25d5aa35410e938da9ff88476b0fc915608b52c4062c4e07226a461c06d",
+  "rows_raw": 4177,
+  "rows_clean": 4177,
+  "duplicates_removed": 0,
+  "subsample_applied": 0,
+  "dedup": true,
+  "conflicting_feature_groups": 0,
+  "target_column_source": "rings",
+  "target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (9)"
+  },
+  "ordinal_levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ordinal_counts_clean": {
+    "0": 839,
+    "1": 568,
+    "2": 689,
+    "3": 1121,
+    "4": 267,
+    "5": 693
+  },
+  "binary_counts_clean": {
+    "0": 2096,
+    "1": 2081
+  },
+  "features": [
+    "length",
+    "diameter",
+    "height",
+    "wholeweight",
+    "shuckedweight",
+    "visceraweight",
+    "shellweight"
+  ],
+  "n_features": 7
+}

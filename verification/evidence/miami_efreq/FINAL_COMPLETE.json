@@ -1,0 +1,20 @@
+{
+  "protocol": "tabular-locked-holdout-v3-multidataset",
+  "clean_sha256": "bc4dd0a598ccfb3de2c16fbb4679fd1525f62e52c39a4eee0758d58125e230c9",
+  "split_seed": 20260906,
+  "evaluation_context_hash": "5dfab35d51b4c03092b8edefe246e5750ef2c903b61dce50f7f47e9ffa4d45f6",
+  "primary_binary_model": "SoftVoting",
+  "runner_up_binary_model": "TabPFN",
+  "primary_ordinal_model": "TabPFNRegressor",
+  "test_rows": 980,
+  "completed_utc": "2026-09-08T21:55:18.975224+00:00",
+  "evaluation_label": "first_final_evaluation",
+  "test_access_attempt": 1,
+  "artifact_sha256": {
+    "test_metrics_binary.csv": "4ddc50fe3b5b0c42117557f34575561175b434a8dc103f1a376dbf55ce2c8160",
+    "test_predictions_binary.csv": "da35484d5868b68c668aafbd14a6950d9c538f4146c75eb4585fcdc3be465400",
+    "test_metrics_ordinal.csv": "a1682f350b62987206517afde6358c9c7f59cbf97f033678839cbe4dc28451c8",
+    "test_predictions_ordinal.csv": "8a73a5845532a07e840aae01b0c7df3f50cac603c6c693318397311c6ed5a4f1"
+  },
+  "rerun_policy": "Load stored results when ALLOW_FINAL_RERUN=False."
+}

@@ -1,0 +1,61 @@
+{
+  "dataset_id": "concrete_efreq",
+  "spec": {
+    "file": "concrete_compressive_strength.csv",
+    "sep": ",",
+    "target": "compressive_strength",
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "quantile"
+    },
+    "binary": "median"
+  },
+  "source_path": "C:\\Users\\jerry\\Documents\\Paper\\Dataset\\concrete_compressive_strength.csv",
+  "source_sha256": "42af38e31a97bae4a609b36d8d56407cf9b355d7ce0c854b0833964096de3e7e",
+  "clean_sha256": "fb2a7cad5e0dfe40b7e8e5c7964e5ff1e8b31953044daafe6b914f1bbf94ee60",
+  "rows_raw": 1030,
+  "rows_clean": 996,
+  "duplicates_removed": 34,
+  "subsample_applied": 0,
+  "dedup": true,
+  "conflicting_feature_groups": 1,
+  "target_column_source": "compressive_strength",
+  "target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (34.4428)"
+  },
+  "ordinal_levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ordinal_counts_clean": {
+    "0": 172,
+    "1": 168,
+    "2": 169,
+    "3": 167,
+    "4": 168,
+    "5": 152
+  },
+  "binary_counts_clean": {
+    "0": 509,
+    "1": 487
+  },
+  "features": [
+    "cement",
+    "blast_furnace_slag",
+    "fly_ash",
+    "water",
+    "superplasticizer",
+    "coarse_aggregate",
+    "fine_aggregate",
+    "age_day"
+  ],
+  "n_features": 8
+}

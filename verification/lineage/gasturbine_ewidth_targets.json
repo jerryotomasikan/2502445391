@@ -1,0 +1,62 @@
+{
+  "source_filename": "gas_turbine_emission.csv",
+  "source_row_index": "0-based data-row index excluding CSV header, before subsampling",
+  "original_clean_sha256": "c218f9fe77f945ab2abe527fc344cb87649481165113c91154e8ed7305b2cd19",
+  "reconstructed_clean_sha256": "c218f9fe77f945ab2abe527fc344cb87649481165113c91154e8ed7305b2cd19",
+  "lineage_status": "Reconstructed from hash-matched source and original target functions; clean checksum and all saved holdout labels match.",
+  "seed": 20260906,
+  "spec": {
+    "file": "gas_turbine_emission.csv",
+    "sep": ",",
+    "target": "NOX",
+    "drop": [
+      "CO"
+    ],
+    "subsample": 4898,
+    "ordinal": {
+      "kind": "bin",
+      "bins": 6,
+      "strategy": "uniform"
+    },
+    "binary": "median"
+  },
+  "constant_selected_on_development": 1,
+  "original_target_meta": {
+    "ordinal_kind": "bin",
+    "bins_requested": 6,
+    "bins_effective": 6,
+    "binary_rule": "target > median (63.945)"
+  },
+  "bin_edges": [
+    40.076246,
+    53.44833333333333,
+    66.74066666666667,
+    80.03299999999999,
+    93.32533333333333,
+    106.61766666666665,
+    119.91
+  ],
+  "interval_convention": "right-closed; first interval includes minimum",
+  "raw_bin_to_final_grade": {
+    "0": [
+      0
+    ],
+    "1": [
+      1
+    ],
+    "2": [
+      2
+    ],
+    "3": [
+      3
+    ],
+    "4": [
+      4
+    ],
+    "5": [
+      5
+    ]
+  },
+  "binary_threshold": 63.945,
+  "binary_operator": ">"
+}
