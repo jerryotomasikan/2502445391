@@ -24,3 +24,7 @@ __pycache__/
 # OS
 Thumbs.db
 .DS_Store
+
+# Compact verification release includes numeric split/fold indices
+!verification/evidence/*/split_indices.npz
+!verification/evidence/*/cv_folds.npz
